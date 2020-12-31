@@ -1,0 +1,23 @@
+﻿<Window x:Class="Fluent_Android_Helper.Update"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:ui="http://schemas.modernwpf.com/2019"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Update" Height="470" Width="450">
+    <Grid>
+        <ui:ToggleSwitch x:Name="IsStartupCheckUpdate" Margin="10,58,0,341.667" Width="104" OffContent="不检查" OnContent="检查"
+              IsOn="False" Height="41" IsEnabled="False"></ui:ToggleSwitch>
+        <Label Content="是否在启动软件时检查更新" HorizontalAlignment="Left" Height="31" Margin="10,22,0,0" VerticalAlignment="Top" Width="225" FontSize="18"/>
+        <Label Content="当前软件版本" HorizontalAlignment="Left" Height="31" Margin="10,104,0,0" VerticalAlignment="Top" Width="116" FontSize="18"/>
+        <Label Content="V1.0 Alpha 1" HorizontalAlignment="Left" Height="41" Margin="10,140,0,0" VerticalAlignment="Top" Width="125"/>
+        <Label Content="最新软件版本" HorizontalAlignment="Left" Height="31" Margin="167,104,0,0" VerticalAlignment="Top" Width="116" FontSize="18"/>
+        <Label x:Name="LatestVersion" Content="" HorizontalAlignment="Left" Height="41" Margin="167,140,0,0" VerticalAlignment="Top" Width="125"/>
+        <Label Content="" HorizontalAlignment="Left" Height="31" Margin="307,122,0,0" VerticalAlignment="Top" Width="116" FontSize="18"/>
+        <Label Content="软件公告" HorizontalAlignment="Left" Height="31" Margin="10,186,0,0" VerticalAlignment="Top" Width="116" FontSize="18"/>
+        <TextBlock x:Name="Logs" HorizontalAlignment="Left" Height="204" Margin="10,227,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="199"/>
+        <Label Content="当前版本更新日志" HorizontalAlignment="Left" Height="31" Margin="234,186,0,0" VerticalAlignment="Top" Width="148" FontSize="18"/>
+        <TextBlock x:Name="UpdateFunction" HorizontalAlignment="Left" Height="204" Margin="234,227,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="199"/>
+    </Grid>
+</Window>

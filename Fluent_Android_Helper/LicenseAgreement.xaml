@@ -1,0 +1,16 @@
+﻿<Window x:Class="Fluent_Android_Helper.LicenseAgreement"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:ui="http://schemas.modernwpf.com/2019"
+        mc:Ignorable="d"
+        Title="LicenseAgreement" Height="470" Width="450">
+    <Grid>
+        <ui:ToggleSwitch x:Name="IsLicenseAgreed" Margin="22,378,0,21.667" Width="104" OffContent="不同意" OnContent="同意"
+              Toggled="IsLicenseAgreed_Toggled" IsOn="False" Height="41"></ui:ToggleSwitch>
+        <Label Content="软件协议许可" HorizontalAlignment="Left" Height="40" Margin="22,29,0,0" VerticalAlignment="Top" Width="162" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" Height="294" Margin="22,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="411" FontSize="14"><Run Text="使用Universal Android Helper前，您需要同意以下协议："/><LineBreak/><Run Text=""/><LineBreak/><Run Text="1.所有刷机/修改/安装/卸载的行为均是你自己所作，与本软件无关。请在使用本软件进行DPI修改/卸载系统应用等危险操作之前了解其是否会对你的手机造成无法描述的影响。"/><LineBreak/><Run Text=""/><LineBreak/><Run Text="2.本程序在Github上开源，遵守协议GPL-3.0，请在使用/引用本人源代码之前阅读开源协议内容，了解你所有的权利和需要遵守的条例。"/><LineBreak/><Run/><LineBreak/><Run Text="3.本工具箱安全无毒（必须是官网下载的版本，详情请关注我的酷安帐号@TheUnknownThing），若是从别处非官方渠道下载带有病毒版本，本人一概不负责任。"/><LineBreak/><Run/><LineBreak/><Run Text="4.没了，欢迎Pull Request并且及时反馈Bug给我！"/></TextBlock>
+        <Button Name="Enter" Content="进入软件" HorizontalAlignment="Left" Height="37" Margin="315,373,0,0" VerticalAlignment="Top" Width="95" Click="Enter_Click"/>
+    </Grid>
+</Window>

@@ -1,0 +1,15 @@
+﻿<Page x:Class="Fluent_Android_Helper.Input_Simulate_Views.Function"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      Title="Function" Width="693" Height="500">
+
+    <Grid>
+        <Image Height="274" Margin="0,21,0.333,0" VerticalAlignment="Top" Source="/Fluent_Android_Helper;component/Icon/FluentAndroidHelperSubIconTransparent.png"/>
+        <Label Content="模拟按键" HorizontalAlignment="Left" Height="50" Margin="280,327,0,0" VerticalAlignment="Top" Width="130" FontSize="32"/>
+        <Label Content="包含功能：模拟各种实体按键功能，模拟键盘输入，模拟鼠标滚轮" HorizontalAlignment="Left" Height="50" Margin="112,396,0,0" VerticalAlignment="Top" Width="465" FontSize="16"/>
+
+    </Grid>
+</Page>

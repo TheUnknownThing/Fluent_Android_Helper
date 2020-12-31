@@ -1,0 +1,17 @@
+﻿<Window x:Class="Fluent_Android_Helper.About"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="About" Height="470" Width="450">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="207" Margin="105,10,0,0" VerticalAlignment="Top" Width="229" Source="/Fluent_Android_Helper;component/Icon/Icon.png"/>
+        <Image HorizontalAlignment="Left" Height="61" Margin="347,156,0,0" VerticalAlignment="Top" Width="66" Source="/Fluent_Android_Helper;component/Icon/alpha.png"/>
+        <TextBlock HorizontalAlignment="Left" Height="29" Margin="19,248,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="414" FontSize="16"><Run Text="Fluent Android Helper是一个免费的，开源ADB工具箱。"/><LineBreak/></TextBlock>
+        <Label Content="在软件设置中可跳转Github项目地址以及蓝奏云下载地址" HorizontalAlignment="Left" Height="29" Margin="34,277,0,0" VerticalAlignment="Top" Width="359"/>
+        <TextBlock HorizontalAlignment="Left" Height="28" Margin="19,354,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="414" FontSize="14" TextAlignment="Center"><Run Text="若有Bug需修复请到Github上提交issues,我会在每周回家时处理。"/><LineBreak/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="30" Margin="67,319,0,0" TextWrapping="Wrap" Text="欢迎测试者！你目前处在Alpha软件通道" VerticalAlignment="Top" Width="326" FontSize="18"/>
+
+    </Grid>
+</Window>

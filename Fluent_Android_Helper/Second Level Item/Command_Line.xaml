@@ -1,0 +1,27 @@
+﻿<Window x:Class="Fluent_Android_Helper.Command_Line"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:ui="http://schemas.modernwpf.com/2019"
+        mc:Ignorable="d"
+        Title="Command_Line" Height="470" Width="450">
+    <Grid>
+
+        <Button x:Name="ADB" Content="打开CMD（输入adb或fastboot命令）" HorizontalAlignment="Left" Height="51" VerticalAlignment="Top" Width="305" Margin="27,61,0,0" Click="ADB_Click"/>
+        <Label Content="命令行选项" HorizontalAlignment="Left" Height="36" Margin="27,20,0,0" VerticalAlignment="Top" Width="129" FontSize="18"/>
+        <Label Content="设备重启选项" HorizontalAlignment="Left" Height="36" Margin="27,140,0,0" VerticalAlignment="Top" Width="129" FontSize="18"/>
+        <Button x:Name="Fastboot" HorizontalAlignment="Left" Height="78" Margin="138,332,0,0" VerticalAlignment="Top" Width="88" Background="{x:Null}" Click="Fastboot_Click">
+            <Image HorizontalAlignment="Right" VerticalAlignment="Top" Source="/Fluent_Android_Helper;component/Icon/RebootFB.png"/>
+        </Button>
+        <Button x:Name="Recovery" HorizontalAlignment="Left" Height="78" Margin="138,254,0,0" VerticalAlignment="Top" Width="88" Background="{x:Null}" Click="Recovery_Click">
+            <Image HorizontalAlignment="Right" VerticalAlignment="Top" Source="/Fluent_Android_Helper;component/Icon/RebootREC.png"/>
+        </Button>
+        <Button x:Name="RebootSystem" HorizontalAlignment="Left" Height="78" Margin="138,176,0,0" VerticalAlignment="Top" Width="88" Background="{x:Null}" Click="RebootSystem_Click">
+            <Image HorizontalAlignment="Right" VerticalAlignment="Top" Source="/Fluent_Android_Helper;component/Icon/RebootSYS.png"/>
+        </Button>
+        <Label Content="系统" HorizontalAlignment="Left" Height="18" Margin="27,207,0,0" VerticalAlignment="Top" Width="30"/>
+        <Label Content="Recovery" HorizontalAlignment="Left" Height="18" Margin="27,282,0,0" VerticalAlignment="Top" Width="64"/>
+        <Label Content="Fastboot" HorizontalAlignment="Left" Height="18" Margin="27,360,0,0" VerticalAlignment="Top" Width="64"/>
+
+    </Grid>
+</Window>

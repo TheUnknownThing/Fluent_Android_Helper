@@ -1,0 +1,74 @@
+D:\Universal Android Helper\Universal_Android_Helper\bin\Debug\Universal_Android_Helper.exe.config
+D:\Universal Android Helper\Universal_Android_Helper\bin\Debug\Universal_Android_Helper.exe
+D:\Universal Android Helper\Universal_Android_Helper\bin\Debug\Universal_Android_Helper.pdb
+D:\Universal Android Helper\Universal_Android_Helper\bin\Debug\FluentWPF.dll
+D:\Universal Android Helper\Universal_Android_Helper\bin\Debug\ModernWpf.Controls.dll
+D:\Universal Android Helper\Universal_Android_Helper\bin\Debug\ModernWpf.dll
+D:\Universal Android Helper\Universal_Android_Helper\bin\Debug\System.ValueTuple.dll
+D:\Universal Android Helper\Universal_Android_Helper\bin\Debug\ModernWpf.xml
+D:\Universal Android Helper\Universal_Android_Helper\bin\Debug\ModernWpf.Controls.xml
+D:\Universal Android Helper\Universal_Android_Helper\bin\Debug\System.ValueTuple.xml
+D:\Universal Android Helper\Universal_Android_Helper\bin\Debug\cs\ModernWpf.resources.dll
+D:\Universal Android Helper\Universal_Android_Helper\bin\Debug\de\ModernWpf.resources.dll
+D:\Universal Android Helper\Universal_Android_Helper\bin\Debug\es\ModernWpf.resources.dll
+D:\Universal Android Helper\Universal_Android_Helper\bin\Debug\fa\ModernWpf.resources.dll
+D:\Universal Android Helper\Universal_Android_Helper\bin\Debug\fr\ModernWpf.resources.dll
+D:\Universal Android Helper\Universal_Android_Helper\bin\Debug\it\ModernWpf.resources.dll
+D:\Universal Android Helper\Universal_Android_Helper\bin\Debug\ja\ModernWpf.resources.dll
+D:\Universal Android Helper\Universal_Android_Helper\bin\Debug\ko\ModernWpf.resources.dll
+D:\Universal Android Helper\Universal_Android_Helper\bin\Debug\pl\ModernWpf.resources.dll
+D:\Universal Android Helper\Universal_Android_Helper\bin\Debug\pt-BR\ModernWpf.resources.dll
+D:\Universal Android Helper\Universal_Android_Helper\bin\Debug\ru\ModernWpf.resources.dll
+D:\Universal Android Helper\Universal_Android_Helper\bin\Debug\tr\ModernWpf.resources.dll
+D:\Universal Android Helper\Universal_Android_Helper\bin\Debug\zh-Hans\ModernWpf.resources.dll
+D:\Universal Android Helper\Universal_Android_Helper\bin\Debug\zh-Hant\ModernWpf.resources.dll
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Universal_Android_Helper.csprojAssemblyReference.cache
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\LicenseAgreement.g.cs
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\MainWindow.g.cs
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\App.g.cs
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Universal_Android_Helper_MarkupCompile.cache
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Universal_Android_Helper_MarkupCompile.lref
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\App.baml
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\LicenseAgreement.baml
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\MainWindow.baml
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Universal_Android_Helper.g.resources
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Universal_Android_Helper.Properties.Resources.resources
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Universal_Android_Helper.csproj.GenerateResource.cache
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Universal_Android_Helper.csproj.CoreCompileInputs.cache
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Universal_Android_Helper.csproj.CopyComplete
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Universal_Android_Helper.exe
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Universal_Android_Helper.pdb
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Input Simulate Views\Function.g.cs
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Second Level Item\About.g.cs
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\CheckADB.g.cs
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Second Level Item\Command_Line.g.cs
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Second Level Item\Fonts.g.cs
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Input Simulate Views\Keyboard_Simulate.g.cs
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Input Simulate Views\Touch_Simulate.g.cs
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Second Level Item\Input_Simulate.g.cs
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Second Level Item\Software_Management.g.cs
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Software Management Views\FreezeGoogle.g.cs
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Software Management Views\Function.g.cs
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Software Management Views\ManageApps.g.cs
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Second Level Item\Software_Settings.g.cs
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Software Settings Views\Github.g.cs
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Software Settings Views\Theme.g.cs
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Second Level Item\Update.g.cs
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Software Settings Views\About.g.cs
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Input Simulate Views\Function.baml
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Second Level Item\About.baml
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\CheckADB.baml
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Second Level Item\Command_Line.baml
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Second Level Item\Fonts.baml
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Input Simulate Views\Keyboard_Simulate.baml
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Input Simulate Views\Touch_Simulate.baml
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Second Level Item\Input_Simulate.baml
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Second Level Item\Software_Management.baml
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Software Management Views\FreezeGoogle.baml
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Software Management Views\Function.baml
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Software Management Views\ManageApps.baml
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Second Level Item\Software_Settings.baml
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Software Settings Views\About.baml
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Software Settings Views\Github.baml
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Software Settings Views\Theme.baml
+D:\Universal Android Helper\Universal_Android_Helper\obj\Debug\Second Level Item\Update.baml

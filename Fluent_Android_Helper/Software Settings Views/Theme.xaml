@@ -1,0 +1,24 @@
+﻿<Page x:Class="Fluent_Android_Helper.Software_Settings_Views.Theme"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:ui="http://schemas.modernwpf.com/2019"
+      mc:Ignorable="d" 
+      d:DesignHeight="443" d:DesignWidth="410"
+      Title="Theme">
+
+    <Grid>
+        <Label Content="是否开启暗色主题" HorizontalAlignment="Left" Height="28" Margin="26,43,0,0" VerticalAlignment="Top" Width="152" FontSize="18"/>
+        <ui:ToggleSwitch x:Name="ThemeAccentBaseColor" Margin="28,76,0,331.667" Width="150" OffContent="关(默认为亮色)" OnContent="开"
+              Toggled="ThemeAccentBaseColor_Toggled" IsOn="False" Height="35"></ui:ToggleSwitch>
+        <Label Content="主界面颜色选择" HorizontalAlignment="Left" Height="31" Margin="26,229,0,0" VerticalAlignment="Top" Width="130" FontSize="18"/>
+        <Button Content="选择颜色" HorizontalAlignment="Left" Height="35" Margin="26,265,0,0" VerticalAlignment="Top" Width="100" IsEnabled="False"/>
+        <Label Content="是否开启透明效果" HorizontalAlignment="Left" Height="28" Margin="26,133,0,0" VerticalAlignment="Top" Width="152" FontSize="18"/>
+        <ui:ToggleSwitch x:Name="IsTransparentActive" Margin="28,166,0,241.667" Width="150" OffContent="关" OnContent="开"
+            Toggled="IsTransparentActive_Toggled" IsOn="True" Height="35" IsEnabled="False"/>
+        <Label Content="自定义主页面欢迎标语" HorizontalAlignment="Left" Height="31" Margin="26,327,0,0" VerticalAlignment="Top" Width="185" FontSize="18"/>
+        <Button x:Name="SetWelcomeTitle" Content="设置标语" HorizontalAlignment="Left" Height="35" Margin="151,363,0,0" VerticalAlignment="Top" Width="100" Click="SetWelcomeTitle_Click"/>
+        <TextBox x:Name="WelcomeTitleText" HorizontalAlignment="Left" Height="35" Margin="26,363,0,0" TextWrapping="Wrap" Text="Hey There!" VerticalAlignment="Top" Width="120"/>
+    </Grid>
+</Page>

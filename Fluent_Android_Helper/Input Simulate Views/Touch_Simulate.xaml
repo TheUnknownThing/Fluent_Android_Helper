@@ -1,0 +1,38 @@
+﻿<Page x:Class="Fluent_Android_Helper.Input_Simulate_Views.Touch_Simulate"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:ui="http://schemas.modernwpf.com/2019"
+      xmlns:fw="clr-namespace:SourceChord.FluentWPF;assembly=FluentWPF"
+      mc:Ignorable="d" 
+      Title="Touch_Simulate" Width="693" Height="500">
+
+    <Grid>
+        <Label Content="触摸/滑动精确控制" HorizontalAlignment="Left" Height="37" Margin="24,29,0,0" VerticalAlignment="Top" Width="175" FontSize="20"/>
+
+        <Label Content="点击屏幕" HorizontalAlignment="Left" Height="28" Margin="24,79,0,0" VerticalAlignment="Top" Width="95" FontSize="18"/>
+        <TextBox HorizontalAlignment="Left" Height="32" Margin="97,110,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="60" MinWidth="46" x:Name="tapX"/>
+        <Label Content="X" HorizontalAlignment="Left" Height="21" Margin="76,114,0,0" VerticalAlignment="Top" Width="16" FontSize="16"/>
+        <TextBox HorizontalAlignment="Left" Height="32" Margin="204,110,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="60" MinWidth="46" x:Name="tapY"/>
+        <Label Content="Y" HorizontalAlignment="Left" Height="21" Margin="188,114,0,0" VerticalAlignment="Top" Width="16" FontSize="16"/>
+        <Button Content="点击" HorizontalAlignment="Left" Height="32" Margin="320,103,0,0" VerticalAlignment="Top" Width="75" x:Name="Simulate_Tap" Click="Simulate_Tap_Click"/>
+        <Label Content="滑动屏幕" HorizontalAlignment="Left" Height="28" Margin="24,149,0,0" VerticalAlignment="Top" Width="95" FontSize="18"/>
+        <TextBox HorizontalAlignment="Left" Height="32" Margin="94,174,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="60" MinWidth="46" x:Name="SwipeX1"/>
+        <Label Content="X1" HorizontalAlignment="Left" Height="21" Margin="74,177,0,0" VerticalAlignment="Top" Width="16" FontSize="16"/>
+        <TextBox HorizontalAlignment="Left" Height="32" Margin="204,174,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="60" MinWidth="46" x:Name="SwipeY1"/>
+        <Label Content="Y1" HorizontalAlignment="Left" Height="21" Margin="183,177,0,0" VerticalAlignment="Top" Width="16" FontSize="16"/>
+        <Button Content="滑动" HorizontalAlignment="Left" Height="32" Margin="320,171,0,0" VerticalAlignment="Top" Width="75" x:Name="Simule_Swipe" Click="Simulate_Swipe_Click"/>
+        <TextBox HorizontalAlignment="Left" Height="32" Margin="94,208,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="60" MinWidth="46" x:Name="SwipeX2"/>
+        <Label Content="X2" HorizontalAlignment="Left" Height="21" Margin="74,212,0,0" VerticalAlignment="Top" Width="21" FontSize="16"/>
+        <TextBox HorizontalAlignment="Left" Height="32" Margin="204,208,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="60" MinWidth="46" x:Name="SwipeY2"/>
+        <Label Content="Y2" HorizontalAlignment="Left" Height="21" Margin="183,212,0,0" VerticalAlignment="Top" Width="21" FontSize="16"/>
+        <TextBox HorizontalAlignment="Left" Height="32" Margin="388,208,0,0" TextWrapping="Wrap" Text="123" VerticalAlignment="Top" Width="60" MinWidth="46" x:Name="DurationTime"/>
+        <Label Content="持续时间(ms)" HorizontalAlignment="Left" Height="21" Margin="279,212,0,0" VerticalAlignment="Top" Width="104" FontSize="16"/>
+
+        <TextBlock HorizontalAlignment="Left" Height="25" Margin="24,263,0,0" TextWrapping="Wrap" Text="Tips:若想长按屏幕，则在滑动屏幕里把X1、X2,Y1、Y2坐标设置成相同即可" VerticalAlignment="Top" Width="541" FontSize="16"/>
+        <Label Content="键盘输入内容" HorizontalAlignment="Left" Height="37" Margin="24,313,0,0" VerticalAlignment="Top" Width="175" FontSize="20"/>
+        <TextBox HorizontalAlignment="Left" Height="122" Margin="30,355,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="455" MinWidth="46" x:Name="InputText"/>
+        <Button Content="输入" HorizontalAlignment="Left" Height="32" Margin="490,445,0,0" VerticalAlignment="Top" Width="75" x:Name="Simulate_Input_Text" Click="Simulate_Input_Text_Click"/>
+    </Grid>
+</Page>

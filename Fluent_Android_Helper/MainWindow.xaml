@@ -1,0 +1,55 @@
+﻿<Window x:Class="Fluent_Android_Helper.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:fw="clr-namespace:SourceChord.FluentWPF;assembly=FluentWPF"
+        xmlns:ui="http://schemas.modernwpf.com/2019"
+        mc:Ignorable="d"
+        Title="主页" Height="691.5" Width="1300" fw:AcrylicWindow.Enabled="True">
+    <Grid>
+        <Grid.Background>
+            <SolidColorBrush Color="White" Opacity="0.5"/>
+        </Grid.Background>
+        <Label x:Name="WelcomeTitle" Content="Hey There!" HorizontalAlignment="Left" Height="93" Margin="66,65,0,0" VerticalAlignment="Top" Width="1148" FontSize="48"/>
+        <WrapPanel Margin="66,158,78,45" ItemHeight="150" fw:PointerTracker.Enabled="True" Background="#01FFFFFF" ItemWidth="284">
+            <Button x:Name="application" HorizontalAlignment="Left" Height="113" VerticalAlignment="Top" Width="264" Background="{x:Null}" Click="application_Click" Style="{StaticResource ButtonRevealStyle}">
+                <Image HorizontalAlignment="Left" Height="70" VerticalAlignment="Top" Width="241" Source="Icon/Application.png" Stretch="UniformToFill"/>
+            </Button>
+            <Button x:Name="command" HorizontalAlignment="Left" Height="113" VerticalAlignment="Top" Width="264" Background="{x:Null}" Click="command_Click" Style="{StaticResource ButtonRevealStyle}">
+                <Image HorizontalAlignment="Left" Height="70" VerticalAlignment="Top" Width="254" Source="Icon/commandline.png"/>
+            </Button>
+            <Button x:Name="Appearance" HorizontalAlignment="Left" Height="113" VerticalAlignment="Top" Width="264" Background="{x:Null}" Click="Appearance_Click" Style="{StaticResource ButtonRevealStyle}">
+                <Image HorizontalAlignment="Left" Height="70" VerticalAlignment="Top" Width="237" Source="Icon/appearence.png"/>
+            </Button>
+            <Button x:Name="Font" HorizontalAlignment="Left" Height="113" VerticalAlignment="Top" Width="264" Background="{x:Null}" Click="Font_Click" Style="{StaticResource ButtonRevealStyle}">
+                <Image HorizontalAlignment="Left" Height="70" VerticalAlignment="Top" Width="237" Source="Icon/font.png"/>
+            </Button>
+            <Button x:Name="Input_Simulate" HorizontalAlignment="Left" Height="113" VerticalAlignment="Top" Width="264" Background="{x:Null}" Click="Input_Simulate_Click" Style="{StaticResource ButtonRevealStyle}">
+                <Image HorizontalAlignment="Right" Height="70" VerticalAlignment="Top" Width="237" Source="Icon/SimulateButton.png"/>
+            </Button>
+            <Button x:Name="mtp" HorizontalAlignment="Left" Height="113" VerticalAlignment="Top" Width="264" Background="{x:Null}" Click="mtp_Click" Style="{StaticResource ButtonRevealStyle}">
+                <Image Height="70" VerticalAlignment="Top" Width="237" Source="Icon/mtp.png"/>
+            </Button>
+            <Button x:Name="function_setting" HorizontalAlignment="Left" Height="113" VerticalAlignment="Top" Width="264" Background="{x:Null}" Click="function_setting_Click" Style="{StaticResource ButtonRevealStyle}">
+                <Image HorizontalAlignment="Left" Height="70" VerticalAlignment="Top" Width="237" Source="Icon/Settings.png"/>
+            </Button>
+            <Button x:Name="update" HorizontalAlignment="Left" Height="113" VerticalAlignment="Top" Width="264" Background="{x:Null}" Click="update_Click" Style="{StaticResource ButtonRevealStyle}">
+                <Image Height="70" VerticalAlignment="Top" Width="237" Source="Icon/update.png" HorizontalAlignment="Right"/>
+            </Button>
+            <Button x:Name="Qualcomm" HorizontalAlignment="Left" Height="113" VerticalAlignment="Top" Width="264" Background="{x:Null}" Click="Input_Simulate_Click" Style="{StaticResource ButtonRevealStyle}" IsEnabled="False">
+                <Image HorizontalAlignment="Right" VerticalAlignment="Top" Source="Icon/Qualcomm.png"/>
+            </Button>
+            <Button x:Name="MTK" HorizontalAlignment="Left" Height="113" VerticalAlignment="Top" Width="264" Background="{x:Null}" Click="Input_Simulate_Click" Style="{StaticResource ButtonRevealStyle}" IsEnabled="False">
+                <Image HorizontalAlignment="Right" VerticalAlignment="Top" Source="Icon/MTK.png"/>
+            </Button>
+            <Button x:Name="MiToolbox" HorizontalAlignment="Left" Height="113" VerticalAlignment="Top" Width="264" Background="{x:Null}" Click="MiToolbox_Click" Style="{StaticResource ButtonRevealStyle}" IsEnabled="False">
+                <Image HorizontalAlignment="Right" VerticalAlignment="Top" Source="Icon/MiToolbox.png" Height="59"/>
+            </Button>
+            <Button x:Name="NativeAndroidToolbox" HorizontalAlignment="Left" Height="113" VerticalAlignment="Top" Width="264" Background="{x:Null}" Click="NativeAndroidToolbox_Click" Style="{StaticResource ButtonRevealStyle}">
+                <Image HorizontalAlignment="Right" VerticalAlignment="Top" Source="Icon/NativeAndroid.png"/>
+            </Button>
+        </WrapPanel>
+
+    </Grid>
+</Window>
