@@ -1,0 +1,14 @@
+<svg id="About" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="527" height="226" viewBox="0 0 527 226">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#199ae0"/>
+      <stop offset="1" stop-color="#0d4d70"/>
+    </linearGradient>
+  </defs>
+  <g id="组_7" data-name="组 7">
+    <path id="路径_20" data-name="路径 20" d="M95.979,160.792H5.646A5.662,5.662,0,0,1,0,155.146V138.208a5.662,5.662,0,0,1,5.646-5.646H33.875V42.229H11.292a5.662,5.662,0,0,1-5.646-5.646V19.646A5.662,5.662,0,0,1,11.292,14H62.1a5.662,5.662,0,0,1,5.646,5.646V132.562H95.979a5.662,5.662,0,0,1,5.646,5.646v16.937A5.662,5.662,0,0,1,95.979,160.792Z" transform="translate(0 65.042)" fill="url(#linear-gradient)"/>
+    <circle id="椭圆_1" data-name="椭圆 1" cx="28.229" cy="28.229" r="28.229" transform="translate(22.583)" fill="url(#linear-gradient)"/>
+  </g>
+  <text id="关于软件" transform="translate(182 132)" fill="#707070" font-size="86" font-family="MicrosoftYaHei-Bold, Microsoft YaHei" font-weight="700"><tspan x="0" y="0">关于软件</tspan></text>
+  <text id="软件信息_鸣谢" data-name="软件信息，鸣谢" transform="translate(182 202)" fill="#707070" font-size="43" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">软件信息，鸣谢</tspan></text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="252" height="250" viewBox="0 0 252 250">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1.06" x2="0.5" y2="0.034" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fede00"/>
+      <stop offset="1" stop-color="#ffd000"/>
+    </linearGradient>
+  </defs>
+  <g id="组_3" data-name="组 3" transform="translate(0 -0.001)">
+    <path id="路径_8" data-name="路径 8" d="M81.356,242.182V152.794H20.829c-8.618,0-14.342-9.446-10.724-17.642L67.211,4.577c3.355-7.64,14.145-5.14,14.145,3.264V97.23h60.526c8.618,0,14.342,9.446,10.724,17.642L95.5,245.446C92.145,253.086,81.356,250.517,81.356,242.182Z" transform="translate(44.644 0)" fill="url(#linear-gradient)"/>
+    <line id="直线_1" data-name="直线 1" x1="19.737" transform="translate(231.263 125.012)" fill="none" stroke="#e36001" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="直线_2" data-name="直线 2" x1="19.737" transform="translate(1 125.012)" fill="none" stroke="#e36001" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="直线_3" data-name="直线 3" x1="14.013" y2="14.724" transform="translate(200.408 31.664)" fill="none" stroke="#e36001" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="直线_4" data-name="直线 4" x1="14.013" y2="14.724" transform="translate(37.579 203.565)" fill="none" stroke="#e36001" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="直线_5" data-name="直线 5" x1="14.013" y1="14.724" transform="translate(200.408 203.565)" fill="none" stroke="#e36001" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="直线_6" data-name="直线 6" x1="14.013" y1="14.724" transform="translate(37.579 31.664)" fill="none" stroke="#e36001" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

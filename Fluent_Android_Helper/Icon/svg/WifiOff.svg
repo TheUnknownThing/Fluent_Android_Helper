@@ -1,0 +1,20 @@
+<svg id="WifiOff" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="339.051" height="250" viewBox="0 0 339.051 250">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.145" y1="0.905" x2="0.859" y2="0.191" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f44f5a"/>
+      <stop offset="0.443" stop-color="#ee3d4a"/>
+      <stop offset="1" stop-color="#e52030"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-0.078" y1="1.162" x2="1.074" y2="0.01" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="组_30" data-name="组 30" transform="translate(-0.004)">
+    <path id="路径_108" data-name="路径 108" d="M83.083,109.042l45.5-45.5C117.912,43.341,96.718,22.5,72.275,22.5S26.637,43.341,16.04,63.546l45.5,45.5A15.138,15.138,0,0,0,83.083,109.042Z" transform="translate(97.254 136.454)" fill="#212428"/>
+    <path id="路径_109" data-name="路径 109" d="M107.389,14.5C67.4,14.5,32.08,41.2,10.25,71.229l40.834,40.834a63.521,63.521,0,0,1,112.469,0l40.834-40.834C182.7,41.2,147.375,14.5,107.389,14.5Z" transform="translate(62.14 87.937)" fill="#434a50"/>
+    <path id="路径_110" data-name="路径 110" d="M142.018,70.082a119.9,119.9,0,0,1,97.139,49.664L279.5,79.407C247.14,39.28,197.617,6.5,142.018,6.5S36.9,39.28,4.54,79.407l40.339,40.339A119.9,119.9,0,0,1,142.018,70.082Z" transform="translate(27.511 39.42)" fill="#5c646b"/>
+    <path id="路径_111" data-name="路径 111" d="M169.529,52.985a176.154,176.154,0,0,1,137.478,65.842l27.552-27.552a15.33,15.33,0,0,0,.141-21.547A230.574,230.574,0,0,0,4.358,69.657,15.33,15.33,0,0,0,4.5,91.2l27.552,27.552A176.31,176.31,0,0,1,169.529,52.985Z" transform="translate(0 0)" fill="#6d767e"/>
+  </g>
+  <g id="组_31" data-name="组 31" transform="translate(231 175)">
+    <path id="路径_138" data-name="路径 138" d="M37.5,0A37.5,37.5,0,1,0,75,37.5,37.49,37.49,0,0,0,37.5,0Zm0,63.75A26.25,26.25,0,1,1,63.75,37.5,26.255,26.255,0,0,1,37.5,63.75Z" fill="url(#linear-gradient)"/>
+    <path id="路径_139" data-name="路径 139" d="M13.08,60.892l-7.95-7.95L52.942,5.13l7.95,7.95Z" transform="translate(4.489 4.489)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

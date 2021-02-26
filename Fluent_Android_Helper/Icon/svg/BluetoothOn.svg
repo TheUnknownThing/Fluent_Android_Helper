@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="430.332" height="250" viewBox="0 0 430.332 250">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#199ae0"/>
+      <stop offset="1" stop-color="#0d4d70"/>
+    </linearGradient>
+  </defs>
+  <path id="路径_132" data-name="路径 132" d="M421.595,179.211,251.344,8.961a32.482,32.482,0,0,0-44.8,0L121.416,94.086l-67.2-67.2a31.373,31.373,0,0,0-44.8,0c-12.545,12.545-12.545,32.258,0,43.907L179.659,241.039a32.482,32.482,0,0,0,44.8,0l85.125-85.125,67.2,68.1a31.373,31.373,0,0,0,44.8,0A33.088,33.088,0,0,0,421.595,179.211Zm-219.534-4.48-36.738-35.842,62.724-62.724,36.738,35.842Z" fill="url(#linear-gradient)"/>
+</svg>

@@ -1,0 +1,65 @@
+﻿<DrawingGroup xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrawingGroup x:Name="_SvgDrawingLayer">
+    <DrawingGroup.ClipGeometry>
+      <RectangleGeometry Rect="0,0,250,250" />
+    </DrawingGroup.ClipGeometry>
+    <DrawingGroup.Transform>
+      <TranslateTransform X="4.6392324293265119E-06" Y="0.0036390381865203381" />
+    </DrawingGroup.Transform>
+    <GeometryDrawing x:Name="路径_173">
+      <GeometryDrawing.Brush>
+        <RadialGradientBrush Center="0.24,0.275" RadiusX="0.842" RadiusY="0.842" GradientOrigin="0.5,0.5" MappingMode="RelativeToBoundingBox" SpreadMethod="Pad" Opacity="1" Transform="-1,0,0,1,-123.98,0">
+          <GradientStop Color="#FF5059C9" Offset="0.212" />
+          <GradientStop Color="#FF545DCB" Offset="0.373" />
+          <GradientStop Color="#FF5F68D1" Offset="0.524" />
+          <GradientStop Color="#FF727ADA" Offset="0.672" />
+          <GradientStop Color="#FF8D94E8" Offset="0.818" />
+          <GradientStop Color="#FFAFB5F9" Offset="0.96" />
+          <GradientStop Color="#FFBAC0FF" Offset="1" />
+        </RadialGradientBrush>
+      </GeometryDrawing.Brush>
+      <GeometryDrawing.Geometry>
+        <PathGeometry FillRule="Nonzero" Figures="M125,250A125,125,0,1,0,0,125A124.966,124.966,0,0,0,125,250z" />
+      </GeometryDrawing.Geometry>
+    </GeometryDrawing>
+    <DrawingGroup x:Name="路径_174" Transform="1,0,0,1,73.5,31.5">
+      <GeometryDrawing>
+        <GeometryDrawing.Brush>
+          <RadialGradientBrush Center="0.678,0.813" RadiusX="0.864" RadiusY="0.864" GradientOrigin="0.5,0.5" MappingMode="RelativeToBoundingBox" SpreadMethod="Pad" Opacity="1" Transform="1,0,0,-1,0,-1.766">
+            <GradientStop Color="#003F41A1" Offset="0.313" />
+            <GradientStop Color="#FF3F41A1" Offset="1" />
+          </RadialGradientBrush>
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M32.75,6A18.75,18.75,0,1,0,51.5,24.75A18.725,18.725,0,0,0,32.75,6z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="路径_175" Transform="1,0,0,1,36.75,94.5">
+      <GeometryDrawing>
+        <GeometryDrawing.Brush>
+          <RadialGradientBrush Center="0.678,0.813" RadiusX="0.864" RadiusY="0.864" GradientOrigin="0.5,0.5" MappingMode="RelativeToBoundingBox" SpreadMethod="Pad" Opacity="1" Transform="1,0,0,-1,0,1.375">
+            <GradientStop Color="#003F41A1" Offset="0.313" />
+            <GradientStop Color="#FF3F41A1" Offset="1" />
+          </RadialGradientBrush>
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M19.5,18A12.5,12.5,0,1,0,32,30.5A12.537,12.537,0,0,0,19.5,18z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="路径_176" Transform="1,0,0,1,162.75,84">
+      <GeometryDrawing>
+        <GeometryDrawing.Brush>
+          <RadialGradientBrush Center="0.678,0.813" RadiusX="0.864" RadiusY="0.864" GradientOrigin="0.5,0.5" MappingMode="RelativeToBoundingBox" SpreadMethod="Pad" Opacity="1" Transform="1,0,0,-1,0,5.041">
+            <GradientStop Color="#003F41A1" Offset="0.313" />
+            <GradientStop Color="#FF3F41A1" Offset="1" />
+          </RadialGradientBrush>
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M40.375,16A9.375,9.375,0,1,0,49.75,25.375A9.362,9.362,0,0,0,40.375,16z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+  </DrawingGroup>
+</DrawingGroup>

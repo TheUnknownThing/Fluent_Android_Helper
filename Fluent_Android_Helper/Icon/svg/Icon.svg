@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1541.5" height="1433" viewBox="0 0 1541.5 1433">
+  <defs>
+    <filter id="矩形_2" x="379" y="0" width="824" height="1433" filterUnits="userSpaceOnUse">
+      <feOffset dx="-9" dy="9" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient" cx="1.178" cy="-0.176" r="0.77" gradientTransform="matrix(1, 0, 0, -1, 0, 0.926)" gradientUnits="objectBoundingBox">
+      <stop offset="0.771" stop-color="#787f85"/>
+      <stop offset="0.819" stop-color="#838a91"/>
+      <stop offset="0.931" stop-color="#99a1aa"/>
+      <stop offset="1" stop-color="#a1aab3"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="0.118" y1="1.333" x2="0.814" y2="0.637" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a1aab3"/>
+      <stop offset="1" stop-color="#8f979e"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.849" y1="-3.099" x2="0.148" y2="-2.398" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.242" stop-color="#f2f2f2"/>
+      <stop offset="1" stop-color="#ccc"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.032" y1="-5.532" x2="0.853" y2="-6.353" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0d61a9"/>
+      <stop offset="0.363" stop-color="#0e5fa4"/>
+      <stop offset="0.78" stop-color="#135796"/>
+      <stop offset="1" stop-color="#16528c"/>
+    </linearGradient>
+    <filter id="路径_135" x="433.942" y="1277.964" width="182.948" height="114.603" filterUnits="userSpaceOnUse">
+      <feOffset dx="-9" dy="9" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="矩形_19" x="0" y="400" width="682" height="682" filterUnits="userSpaceOnUse">
+      <feOffset dx="-9" dy="9" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4.5" result="blur-3"/>
+      <feFlood flood-opacity="0.349"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="F" x="158" y="425" width="316" height="657" filterUnits="userSpaceOnUse">
+      <feOffset dx="-9" dy="9" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4.5" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Icon" transform="translate(22.5 4.5)">
+    <g transform="matrix(1, 0, 0, 1, -22.5, -4.5)" filter="url(#矩形_2)">
+      <g id="矩形_2-2" data-name="矩形 2" transform="translate(401.5 4.5)" fill="#fff" stroke="#707070" stroke-width="30">
+        <rect width="797" height="1406" rx="36" stroke="none"/>
+        <rect x="15" y="15" width="767" height="1376" rx="21" fill="none"/>
+      </g>
+    </g>
+    <rect id="矩形_3" data-name="矩形 3" width="738" height="116" transform="translate(408 1264)" fill="#165737"/>
+    <g id="矩形_4" data-name="矩形 4" transform="translate(408 523)" fill="#4fdb96" stroke="#707070" stroke-width="1">
+      <rect width="247" height="247" stroke="none"/>
+      <rect x="0.5" y="0.5" width="246" height="246" fill="none"/>
+    </g>
+    <rect id="矩形_5" data-name="矩形 5" width="247" height="247" transform="translate(408 770)" fill="#599677"/>
+    <rect id="矩形_6" data-name="矩形 6" width="247" height="247" transform="translate(652 1017)" fill="#1e754a"/>
+    <rect id="矩形_7" data-name="矩形 7" width="247" height="247" transform="translate(899 1017)" fill="#1e754a"/>
+    <rect id="矩形_8" data-name="矩形 8" width="247" height="247" transform="translate(408 29)" fill="#58fca9"/>
+    <rect id="矩形_9" data-name="矩形 9" width="247" height="247" transform="translate(408 276)" fill="#0eb562"/>
+    <rect id="矩形_10" data-name="矩形 10" width="247" height="247" transform="translate(899 29)" fill="#00ff81"/>
+    <rect id="矩形_11" data-name="矩形 11" width="247" height="247" transform="translate(899 276)" fill="#08d16d"/>
+    <rect id="矩形_12" data-name="矩形 12" width="247" height="247" transform="translate(899 523)" fill="#09ad5c"/>
+    <rect id="矩形_13" data-name="矩形 13" width="247" height="247" transform="translate(899 770)" fill="#2d8f5e"/>
+    <path id="路径_133" data-name="路径 133" d="M230.8,17.81l149.72,149.72-199.8,199.8a105.89,105.89,0,0,1-149.72,0h0a105.89,105.89,0,0,1,0-149.72Z" transform="translate(832.998 961.846)" fill="url(#radial-gradient)"/>
+    <path id="路径_134" data-name="路径 134" d="M370.184,262.6A99.319,99.319,0,0,1,229.726,122.138L316.162,35.7c9.261-9.261,5.145-25.554-7.546-28.812A235.671,235.671,0,0,0,207.945,4.146C104.7,23.869,24.1,110.3,13.293,214.92-2.314,367.555,124.939,494.808,277.574,479.03c104.615-10.8,191.051-91.41,210.6-194.653a234.876,234.876,0,0,0-2.744-100.5c-3.087-12.863-19.38-16.979-28.641-7.546C417.861,215.091,379.617,253.164,370.184,262.6Z" transform="translate(1026.665 674.012)" fill="url(#linear-gradient)"/>
+    <circle id="椭圆_8" data-name="椭圆 8" cx="68.6" cy="68.6" r="68.6" transform="translate(867.257 1188.714)" fill="url(#linear-gradient-2)"/>
+    <circle id="椭圆_9" data-name="椭圆 9" cx="34.3" cy="34.3" r="34.3" transform="translate(901.557 1223.014)" fill="url(#linear-gradient-3)"/>
+    <rect id="矩形_14" data-name="矩形 14" width="247" height="247" transform="translate(655 276)" fill="#08d16d"/>
+    <rect id="矩形_15" data-name="矩形 15" width="247" height="247" transform="translate(652 770)" fill="#599677"/>
+    <rect id="矩形_16" data-name="矩形 16" width="247" height="247" transform="translate(652 523)" fill="#13d575"/>
+    <rect id="矩形_17" data-name="矩形 17" width="247" height="247" transform="translate(652 29)" fill="#4af59e"/>
+    <rect id="矩形_18" data-name="矩形 18" width="247" height="247" transform="translate(408 1017)" fill="#446e59"/>
+    <g transform="matrix(1, 0, 0, 1, -22.5, -4.5)" filter="url(#路径_135)">
+      <path id="路径_135-2" data-name="路径 135" d="M223.828,33.306l12.978-22.479a2.742,2.742,0,0,0-4.679-2.745L218.983,30.91a81.55,81.55,0,0,0-66.767,0L139.071,8.136a2.745,2.745,0,0,0-4.679,2.745l12.978,22.431a76.628,76.628,0,0,0-39.734,61.355H263.585a76.652,76.652,0,0,0-39.758-61.355ZM149.684,72.448a6.5,6.5,0,1,1,6.268-4.817A6.507,6.507,0,0,1,149.684,72.448Zm71.8,0a6.5,6.5,0,1,1,6.486-6.51A6.5,6.5,0,0,1,221.479,72.448Z" transform="translate(348.81 1275.4)" fill="#91d5ca"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -22.5, -4.5)" filter="url(#矩形_19)">
+      <rect id="矩形_19-2" data-name="矩形 19" width="655" height="655" rx="55" transform="translate(22.5 404.5)" fill="#1b9a77"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -22.5, -4.5)" filter="url(#F)">
+      <text id="F-2" data-name="F" transform="translate(180.5 915.5)" fill="#fff" font-size="504" font-family="GoogleSans-Bold, Google Sans" font-weight="700"><tspan x="0" y="0">F</tspan></text>
+    </g>
+  </g>
+</svg>

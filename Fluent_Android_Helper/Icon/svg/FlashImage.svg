@@ -1,0 +1,9 @@
+<svg id="FlashImage" xmlns="http://www.w3.org/2000/svg" width="658.143" height="200.127" viewBox="0 0 658.143 200.127">
+  <text id="刷写镜像" transform="translate(247.733 100.121)" fill="#707070" font-size="86" font-family="MicrosoftYaHei-Bold, Microsoft YaHei" font-weight="700"><tspan x="0" y="0">刷写镜像</tspan></text>
+  <text id="Recovery等分区刷写" transform="translate(247.733 169.121)" fill="#707070" font-size="43" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">Recovery等分区刷写</tspan></text>
+  <g id="icons8_cd_2">
+    <path id="路径_238" data-name="路径 238" d="M104.063,4C49.029,4,4,49.029,4,104.063S49.029,204.127,104.063,204.127,204.127,159.1,204.127,104.063,159.1,4,104.063,4Zm0,118.575a18.469,18.469,0,0,1-18.512-18.512,18.512,18.512,0,1,1,37.023,0A18.469,18.469,0,0,1,104.063,122.575Z" transform="translate(-4 -4)" fill="#90caf9"/>
+    <path id="路径_239" data-name="路径 239" d="M104.06,77.443l54.535-43.528C152.091,23.91,143.585,15.9,133.579,8.9L89.551,63.435C96.556,65.936,102.059,70.939,104.06,77.443ZM63.535,90.452,9,133.979c6.5,10.006,15.51,18.512,25.516,25.516l43.027-55.035A20.721,20.721,0,0,1,63.535,90.452Z" transform="translate(16.016 15.616)" fill="#cfe8f9"/>
+    <path id="路径_240" data-name="路径 240" d="M48.019,18A30.019,30.019,0,1,0,78.038,48.019,30.107,30.107,0,0,0,48.019,18Zm0,40.025A10.006,10.006,0,1,1,58.025,48.019,10.036,10.036,0,0,1,48.019,58.025Z" transform="translate(52.044 52.044)" fill="#1e88e5"/>
+  </g>
+</svg>

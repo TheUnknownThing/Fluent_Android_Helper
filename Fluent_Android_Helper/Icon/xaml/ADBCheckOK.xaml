@@ -1,0 +1,63 @@
+﻿<DrawingGroup xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrawingGroup x:Name="_SvgDrawingLayer">
+    <DrawingGroup.ClipGeometry>
+      <RectangleGeometry Rect="0,0,237.5,250.759" />
+    </DrawingGroup.ClipGeometry>
+    <DrawingGroup x:Name="组_33" Transform="1,0,0,1,0,0.759">
+      <DrawingGroup x:Name="路径_141" Transform="1,0,0,1,94.5,199.5">
+        <GeometryDrawing Brush="#FF107C42">
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M24.25,50.5A6.25,6.25,0,0,1,24.25,38z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+      <DrawingGroup x:Name="路径_142" Transform="1,0,0,1,99.75,199.5">
+        <GeometryDrawing Brush="#FF185C37">
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M25.25,44.25A6.268,6.268,0,0,1,19,50.5L19,38A6.268,6.268,0,0,1,25.25,44.25z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+      <DrawingGroup x:Name="椭圆_11" Transform="1,0,0,1,225,37.5">
+        <GeometryDrawing Brush="#FF21A366">
+          <GeometryDrawing.Geometry>
+            <EllipseGeometry RadiusX="6.25" RadiusY="6.25" Center="6.25,6.25" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+      <DrawingGroup x:Name="椭圆_12" Transform="1,0,0,1,0,37.5">
+        <GeometryDrawing Brush="#FF33C481">
+          <GeometryDrawing.Geometry>
+            <EllipseGeometry RadiusX="6.25" RadiusY="6.25" Center="6.25,6.25" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+      <DrawingGroup x:Name="路径_143" Transform="1,0,0,1,99.75,105">
+        <GeometryDrawing Brush="#FF0370C8">
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M19,138.75L21.688,144.438C21.688,144.438,116.313,95.062,134.688,20L19,20z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+      <DrawingGroup x:Name="路径_144" Transform="1,0,0,1,99.75,0">
+        <GeometryDrawing Brush="#FF248FE1">
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M137.75,43.75L131.5,37.5C62,37.5,61,0,19,0L19,125 134.688,125A106.544,106.544,0,0,0,137.751,100C137.75,80.375,137.75,43.75,137.75,43.75z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+      <DrawingGroup x:Name="路径_145" Transform="1,0,0,1,2.572,105">
+        <GeometryDrawing Brush="#FF1565A5">
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M116.177,138.75L113.49,144.438C113.49,144.438,18.865,95.062,0.49,20L116.177,20z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+      <GeometryDrawing x:Name="路径_146" Brush="#FF289EF8">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M0,43.75L6.25,37.5C75.75,37.5,76.75,0,118.75,0L118.75,125 3.063,125A106.544,106.544,0,0,1,0,100z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+  </DrawingGroup>
+</DrawingGroup>

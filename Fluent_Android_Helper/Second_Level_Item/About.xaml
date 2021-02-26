@@ -1,0 +1,312 @@
+﻿<Window x:Class="Fluent_Android_Helper.About"
+        xmlns:svgc="http://sharpvectors.codeplex.com/svgc/"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:PresentationOptions="http://schemas.microsoft.com/winfx/2006/xaml/presentation/options"
+        mc:Ignorable="d"
+        Title="About" Height="470" Width="450">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="207" Margin="105,10,0,0" VerticalAlignment="Top" Width="229">
+            <Image.Source>
+                <DrawingImage PresentationOptions:Freeze="True">
+                    <DrawingImage.Drawing>
+                        <DrawingGroup xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+                            <DrawingGroup x:Name="icon_XAML">
+                                <DrawingGroup.ClipGeometry>
+                                    <RectangleGeometry Rect="0,0,1541.5,1433" />
+                                </DrawingGroup.ClipGeometry>
+                                <DrawingGroup.Transform>
+                                    <TranslateTransform X="0" Y="0.01060232799500227" />
+                                </DrawingGroup.Transform>
+                                <DrawingGroup x:Name="Icon" Transform="1,0,0,1,22.5,4.5">
+                                    <DrawingGroup Transform="1,0,0,1,-22.5,-4.5">
+                                        <DrawingGroup x:Name="___2_2" Transform="1,0,0,1,401.5,4.5">
+                                            <GeometryDrawing Brush="#FFFFFFFF">
+                                                <GeometryDrawing.Geometry>
+                                                    <RectangleGeometry RadiusX="36" RadiusY="36" Rect="0,0,797,1406" />
+                                                </GeometryDrawing.Geometry>
+                                            </GeometryDrawing>
+                                            <GeometryDrawing>
+                                                <GeometryDrawing.Pen>
+                                                    <Pen Brush="#FF707070" Thickness="30" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+                                                </GeometryDrawing.Pen>
+                                                <GeometryDrawing.Geometry>
+                                                    <RectangleGeometry RadiusX="21" RadiusY="21" Rect="15,15,767,1376" />
+                                                </GeometryDrawing.Geometry>
+                                            </GeometryDrawing>
+                                        </DrawingGroup>
+                                    </DrawingGroup>
+                                    <DrawingGroup x:Name="矩形_3" Transform="1,0,0,1,408,1264">
+                                        <GeometryDrawing Brush="#FF165737">
+                                            <GeometryDrawing.Geometry>
+                                                <RectangleGeometry RadiusX="0" RadiusY="0" Rect="0,0,738,116" />
+                                            </GeometryDrawing.Geometry>
+                                        </GeometryDrawing>
+                                    </DrawingGroup>
+                                    <DrawingGroup x:Name="矩形_4" Transform="1,0,0,1,408,523">
+                                        <GeometryDrawing Brush="#FF4FDB96">
+                                            <GeometryDrawing.Geometry>
+                                                <RectangleGeometry RadiusX="0" RadiusY="0" Rect="0,0,247,247" />
+                                            </GeometryDrawing.Geometry>
+                                        </GeometryDrawing>
+                                        <GeometryDrawing>
+                                            <GeometryDrawing.Pen>
+                                                <Pen Brush="#FF707070" Thickness="1" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+                                            </GeometryDrawing.Pen>
+                                            <GeometryDrawing.Geometry>
+                                                <RectangleGeometry RadiusX="0" RadiusY="0" Rect="0.5,0.5,246,246" />
+                                            </GeometryDrawing.Geometry>
+                                        </GeometryDrawing>
+                                    </DrawingGroup>
+                                    <DrawingGroup x:Name="矩形_5" Transform="1,0,0,1,408,770">
+                                        <GeometryDrawing Brush="#FF599677">
+                                            <GeometryDrawing.Geometry>
+                                                <RectangleGeometry RadiusX="0" RadiusY="0" Rect="0,0,247,247" />
+                                            </GeometryDrawing.Geometry>
+                                        </GeometryDrawing>
+                                    </DrawingGroup>
+                                    <DrawingGroup x:Name="矩形_6" Transform="1,0,0,1,652,1017">
+                                        <GeometryDrawing Brush="#FF1E754A">
+                                            <GeometryDrawing.Geometry>
+                                                <RectangleGeometry RadiusX="0" RadiusY="0" Rect="0,0,247,247" />
+                                            </GeometryDrawing.Geometry>
+                                        </GeometryDrawing>
+                                    </DrawingGroup>
+                                    <DrawingGroup x:Name="矩形_7" Transform="1,0,0,1,899,1017">
+                                        <GeometryDrawing Brush="#FF1E754A">
+                                            <GeometryDrawing.Geometry>
+                                                <RectangleGeometry RadiusX="0" RadiusY="0" Rect="0,0,247,247" />
+                                            </GeometryDrawing.Geometry>
+                                        </GeometryDrawing>
+                                    </DrawingGroup>
+                                    <DrawingGroup x:Name="矩形_8" Transform="1,0,0,1,408,29">
+                                        <GeometryDrawing Brush="#FF58FCA9">
+                                            <GeometryDrawing.Geometry>
+                                                <RectangleGeometry RadiusX="0" RadiusY="0" Rect="0,0,247,247" />
+                                            </GeometryDrawing.Geometry>
+                                        </GeometryDrawing>
+                                    </DrawingGroup>
+                                    <DrawingGroup x:Name="矩形_9" Transform="1,0,0,1,408,276">
+                                        <GeometryDrawing Brush="#FF0EB562">
+                                            <GeometryDrawing.Geometry>
+                                                <RectangleGeometry RadiusX="0" RadiusY="0" Rect="0,0,247,247" />
+                                            </GeometryDrawing.Geometry>
+                                        </GeometryDrawing>
+                                    </DrawingGroup>
+                                    <DrawingGroup x:Name="矩形_10" Transform="1,0,0,1,899,29">
+                                        <GeometryDrawing Brush="#FF00FF81">
+                                            <GeometryDrawing.Geometry>
+                                                <RectangleGeometry RadiusX="0" RadiusY="0" Rect="0,0,247,247" />
+                                            </GeometryDrawing.Geometry>
+                                        </GeometryDrawing>
+                                    </DrawingGroup>
+                                    <DrawingGroup x:Name="矩形_11" Transform="1,0,0,1,899,276">
+                                        <GeometryDrawing Brush="#FF08D16D">
+                                            <GeometryDrawing.Geometry>
+                                                <RectangleGeometry RadiusX="0" RadiusY="0" Rect="0,0,247,247" />
+                                            </GeometryDrawing.Geometry>
+                                        </GeometryDrawing>
+                                    </DrawingGroup>
+                                    <DrawingGroup x:Name="矩形_12" Transform="1,0,0,1,899,523">
+                                        <GeometryDrawing Brush="#FF09AD5C">
+                                            <GeometryDrawing.Geometry>
+                                                <RectangleGeometry RadiusX="0" RadiusY="0" Rect="0,0,247,247" />
+                                            </GeometryDrawing.Geometry>
+                                        </GeometryDrawing>
+                                    </DrawingGroup>
+                                    <DrawingGroup x:Name="矩形_13" Transform="1,0,0,1,899,770">
+                                        <GeometryDrawing Brush="#FF2D8F5E">
+                                            <GeometryDrawing.Geometry>
+                                                <RectangleGeometry RadiusX="0" RadiusY="0" Rect="0,0,247,247" />
+                                            </GeometryDrawing.Geometry>
+                                        </GeometryDrawing>
+                                    </DrawingGroup>
+                                    <DrawingGroup x:Name="路径_133" Transform="1,0,0,1,832.998,961.846">
+                                        <GeometryDrawing>
+                                            <GeometryDrawing.Brush>
+                                                <RadialGradientBrush Center="1.178,-0.176" RadiusX="0.77" RadiusY="0.77" GradientOrigin="0.5,0.5" MappingMode="RelativeToBoundingBox" SpreadMethod="Pad" Opacity="1" Transform="1,0,0,-1,0,0.926">
+                                                    <GradientStop Color="#FF787F85" Offset="0.77099999999999991" />
+                                                    <GradientStop Color="#FF838A91" Offset="0.81900000000000006" />
+                                                    <GradientStop Color="#FF99A1AA" Offset="0.93099999999999994" />
+                                                    <GradientStop Color="#FFA1AAB3" Offset="1" />
+                                                </RadialGradientBrush>
+                                            </GeometryDrawing.Brush>
+                                            <GeometryDrawing.Geometry>
+                                                <PathGeometry FillRule="Nonzero" Figures="M230.8,17.81L380.52,167.53 180.72,367.33A105.89,105.89,0,0,1,31,367.33L31,367.33A105.89,105.89,0,0,1,31,217.61z" />
+                                            </GeometryDrawing.Geometry>
+                                        </GeometryDrawing>
+                                    </DrawingGroup>
+                                    <DrawingGroup x:Name="路径_134" Transform="1,0,0,1,1026.665,674.012">
+                                        <GeometryDrawing>
+                                            <GeometryDrawing.Brush>
+                                                <DrawingBrush Viewbox="0,0,1,1" Stretch="Fill" Opacity="1">
+                                                    <DrawingBrush.Drawing>
+                                                        <GeometryDrawing>
+                                                            <GeometryDrawing.Brush>
+                                                                <LinearGradientBrush StartPoint="0.118,1.333" EndPoint="0.814,0.637" MappingMode="RelativeToBoundingBox" SpreadMethod="Pad">
+                                                                    <GradientStop Color="#FFA1AAB3" Offset="0" />
+                                                                    <GradientStop Color="#FF8F979E" Offset="1" />
+                                                                </LinearGradientBrush>
+                                                            </GeometryDrawing.Brush>
+                                                            <GeometryDrawing.Geometry>
+                                                                <RectangleGeometry Rect="0,0,1,1" />
+                                                            </GeometryDrawing.Geometry>
+                                                        </GeometryDrawing>
+                                                    </DrawingBrush.Drawing>
+                                                </DrawingBrush>
+                                            </GeometryDrawing.Brush>
+                                            <GeometryDrawing.Geometry>
+                                                <PathGeometry FillRule="Nonzero" Figures="M370.184,262.6A99.319,99.319,0,0,1,229.726,122.138L316.162,35.7C325.423,26.439,321.307,10.146,308.616,6.888A235.671,235.671,0,0,0,207.945,4.146C104.7,23.869 24.1,110.3 13.293,214.92 -2.314,367.555 124.939,494.808 277.574,479.03 382.189,468.23 468.625,387.62 488.174,284.377A234.876,234.876,0,0,0,485.43,183.877C482.343,171.014 466.05,166.898 456.789,176.331 417.861,215.091 379.617,253.164 370.184,262.6z" />
+                                            </GeometryDrawing.Geometry>
+                                        </GeometryDrawing>
+                                    </DrawingGroup>
+                                    <DrawingGroup x:Name="椭圆_8" Transform="1,0,0,1,867.257,1188.714">
+                                        <GeometryDrawing>
+                                            <GeometryDrawing.Brush>
+                                                <DrawingBrush Viewbox="0,0,1,1" Stretch="Fill" Opacity="1">
+                                                    <DrawingBrush.Drawing>
+                                                        <GeometryDrawing>
+                                                            <GeometryDrawing.Brush>
+                                                                <LinearGradientBrush StartPoint="0.849,-3.099" EndPoint="0.148,-2.398" MappingMode="RelativeToBoundingBox" SpreadMethod="Pad">
+                                                                    <GradientStop Color="#FFFFFFFF" Offset="0" />
+                                                                    <GradientStop Color="#FFF2F2F2" Offset="0.242" />
+                                                                    <GradientStop Color="#FFCCCCCC" Offset="1" />
+                                                                </LinearGradientBrush>
+                                                            </GeometryDrawing.Brush>
+                                                            <GeometryDrawing.Geometry>
+                                                                <RectangleGeometry Rect="0,0,1,1" />
+                                                            </GeometryDrawing.Geometry>
+                                                        </GeometryDrawing>
+                                                    </DrawingBrush.Drawing>
+                                                </DrawingBrush>
+                                            </GeometryDrawing.Brush>
+                                            <GeometryDrawing.Geometry>
+                                                <EllipseGeometry RadiusX="68.6" RadiusY="68.6" Center="68.6,68.6" />
+                                            </GeometryDrawing.Geometry>
+                                        </GeometryDrawing>
+                                    </DrawingGroup>
+                                    <DrawingGroup x:Name="椭圆_9" Transform="1,0,0,1,901.557,1223.014">
+                                        <GeometryDrawing>
+                                            <GeometryDrawing.Brush>
+                                                <DrawingBrush Viewbox="0,0,1,1" Stretch="Fill" Opacity="1">
+                                                    <DrawingBrush.Drawing>
+                                                        <GeometryDrawing>
+                                                            <GeometryDrawing.Brush>
+                                                                <LinearGradientBrush StartPoint="0.032,-5.532" EndPoint="0.853,-6.353" MappingMode="RelativeToBoundingBox" SpreadMethod="Pad">
+                                                                    <GradientStop Color="#FF0D61A9" Offset="0" />
+                                                                    <GradientStop Color="#FF0E5FA4" Offset="0.363" />
+                                                                    <GradientStop Color="#FF135796" Offset="0.78" />
+                                                                    <GradientStop Color="#FF16528C" Offset="1" />
+                                                                </LinearGradientBrush>
+                                                            </GeometryDrawing.Brush>
+                                                            <GeometryDrawing.Geometry>
+                                                                <RectangleGeometry Rect="0,0,1,1" />
+                                                            </GeometryDrawing.Geometry>
+                                                        </GeometryDrawing>
+                                                    </DrawingBrush.Drawing>
+                                                </DrawingBrush>
+                                            </GeometryDrawing.Brush>
+                                            <GeometryDrawing.Geometry>
+                                                <EllipseGeometry RadiusX="34.3" RadiusY="34.3" Center="34.3,34.3" />
+                                            </GeometryDrawing.Geometry>
+                                        </GeometryDrawing>
+                                    </DrawingGroup>
+                                    <DrawingGroup x:Name="矩形_14" Transform="1,0,0,1,655,276">
+                                        <GeometryDrawing Brush="#FF08D16D">
+                                            <GeometryDrawing.Geometry>
+                                                <RectangleGeometry RadiusX="0" RadiusY="0" Rect="0,0,247,247" />
+                                            </GeometryDrawing.Geometry>
+                                        </GeometryDrawing>
+                                    </DrawingGroup>
+                                    <DrawingGroup x:Name="矩形_15" Transform="1,0,0,1,652,770">
+                                        <GeometryDrawing Brush="#FF599677">
+                                            <GeometryDrawing.Geometry>
+                                                <RectangleGeometry RadiusX="0" RadiusY="0" Rect="0,0,247,247" />
+                                            </GeometryDrawing.Geometry>
+                                        </GeometryDrawing>
+                                    </DrawingGroup>
+                                    <DrawingGroup x:Name="矩形_16" Transform="1,0,0,1,652,523">
+                                        <GeometryDrawing Brush="#FF13D575">
+                                            <GeometryDrawing.Geometry>
+                                                <RectangleGeometry RadiusX="0" RadiusY="0" Rect="0,0,247,247" />
+                                            </GeometryDrawing.Geometry>
+                                        </GeometryDrawing>
+                                    </DrawingGroup>
+                                    <DrawingGroup x:Name="矩形_17" Transform="1,0,0,1,652,29">
+                                        <GeometryDrawing Brush="#FF4AF59E">
+                                            <GeometryDrawing.Geometry>
+                                                <RectangleGeometry RadiusX="0" RadiusY="0" Rect="0,0,247,247" />
+                                            </GeometryDrawing.Geometry>
+                                        </GeometryDrawing>
+                                    </DrawingGroup>
+                                    <DrawingGroup x:Name="矩形_18" Transform="1,0,0,1,408,1017">
+                                        <GeometryDrawing Brush="#FF446E59">
+                                            <GeometryDrawing.Geometry>
+                                                <RectangleGeometry RadiusX="0" RadiusY="0" Rect="0,0,247,247" />
+                                            </GeometryDrawing.Geometry>
+                                        </GeometryDrawing>
+                                    </DrawingGroup>
+                                    <DrawingGroup Transform="1,0,0,1,-22.5,-4.5">
+                                        <DrawingGroup x:Name="___135_2" Transform="1,0,0,1,348.81,1275.4">
+                                            <GeometryDrawing Brush="#FF91D5CA">
+                                                <GeometryDrawing.Geometry>
+                                                    <PathGeometry FillRule="Nonzero" Figures="M223.828,33.306L236.806,10.827A2.742,2.742,0,0,0,232.127,8.082L218.983,30.91A81.55,81.55,0,0,0,152.216,30.91L139.071,8.136A2.745,2.745,0,0,0,134.392,10.881L147.37,33.312A76.628,76.628,0,0,0,107.636,94.667L263.585,94.667A76.652,76.652,0,0,0,223.827,33.312z M149.684,72.448A6.5,6.5,0,1,1,155.952,67.631A6.507,6.507,0,0,1,149.684,72.448z M221.484,72.448A6.5,6.5,0,1,1,227.97,65.938A6.5,6.5,0,0,1,221.479,72.448z" />
+                                                </GeometryDrawing.Geometry>
+                                            </GeometryDrawing>
+                                        </DrawingGroup>
+                                    </DrawingGroup>
+                                    <DrawingGroup Transform="1,0,0,1,-22.5,-4.5">
+                                        <DrawingGroup x:Name="___19_2" Transform="1,0,0,1,22.5,404.5">
+                                            <GeometryDrawing Brush="#FF1B9A77">
+                                                <GeometryDrawing.Geometry>
+                                                    <RectangleGeometry RadiusX="55" RadiusY="55" Rect="0,0,655,655" />
+                                                </GeometryDrawing.Geometry>
+                                            </GeometryDrawing>
+                                        </DrawingGroup>
+                                    </DrawingGroup>
+                                    <DrawingGroup Transform="1,0,0,1,-22.5,-4.5">
+                                        <DrawingGroup x:Name="F_2" Transform="1,0,0,1,180.5,915.5">
+                                            <GeometryDrawing Brush="#FFFFFFFF">
+                                                <GeometryDrawing.Geometry>
+                                                    <PathGeometry FillRule="Nonzero" Figures="M37.16015625,-360.7734375L284.484375,-360.7734375 284.484375,-299.7421875 110.00390625,-299.7421875 110.00390625,-214.34765625 260.61328125,-214.34765625 260.61328125,-153.31640625 110.00390625,-153.31640625 110.00390625,0 37.16015625,0 37.16015625,-360.7734375z" />
+                                                </GeometryDrawing.Geometry>
+                                            </GeometryDrawing>
+                                        </DrawingGroup>
+                                    </DrawingGroup>
+                                </DrawingGroup>
+                            </DrawingGroup>
+                        </DrawingGroup>
+                    </DrawingImage.Drawing>
+                </DrawingImage>
+            </Image.Source>
+        </Image>
+        <Image HorizontalAlignment="Left" Height="61" Margin="347,156,0,0" VerticalAlignment="Top" Width="66" />
+        <Image HorizontalAlignment="Left" Height="61" Margin="347,156,0,0" VerticalAlignment="Top" Width="66">
+            <Image.Source>
+                <DrawingImage PresentationOptions:Freeze="True">
+                    <DrawingImage.Drawing>
+                        <DrawingGroup xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+                            <DrawingGroup x:Name="_SvgDrawingLayer">
+                                <DrawingGroup.ClipGeometry>
+                                    <RectangleGeometry Rect="0,0,250,250" />
+                                </DrawingGroup.ClipGeometry>
+                                <GeometryDrawing x:Name="路径_168" Brush="#FF00ACC1">
+                                    <GeometryDrawing.Geometry>
+                                        <PathGeometry FillRule="Nonzero" Figures="M179.706,7.353L222.647,7.353 195.294,126.912C191.176,139.706 187.5,161.544 183.603,169.191 191.397,200 199.265,215.367 214.853,215.367 230.441,215.367 234.412,203.823 238.309,184.632L250,184.632Q250,213.532,238.309,230.808C230.441,242.279 222.647,250 210.956,250 203.162,250 195.294,246.176 191.397,238.456 187.5,230.736 183.603,215.368 175.735,192.28 156.25,230.735 128.9,250 89.853,250 62.5,250 39.044,234.632 23.453,215.368 7.794,192.279 0,165.368 0,123.088 0,84.632 7.794,53.9 27.353,30.809 46.912,7.718 66.4,0 89.853,0 109.412,0 121.103,7.721 132.794,19.265 144.485,30.809 152.353,50 164.044,80.809z M156.25,107.721C148.456,80.809 140.588,57.721 128.897,42.353 117.206,26.985 105.441,19.265 93.75,19.265 62.5,19.265 46.838,53.897 46.838,126.986Q46.838,230.886 93.75,230.81 134.779,230.81 152.35,138.531z" />
+                                    </GeometryDrawing.Geometry>
+                                </GeometryDrawing>
+                            </DrawingGroup>
+                        </DrawingGroup>
+                    </DrawingImage.Drawing>
+                </DrawingImage>
+            </Image.Source>
+        </Image>
+        <TextBlock HorizontalAlignment="Left" Height="29" Margin="19,248,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="414" FontSize="16"><Run Text="Fluent Android Helper是一个免费的，开源ADB工具箱。"/><LineBreak/></TextBlock>
+        <Label Content="在软件设置中可跳转Github项目地址以及蓝奏云下载地址" HorizontalAlignment="Left" Height="29" Margin="34,277,0,0" VerticalAlignment="Top" Width="359"/>
+        <TextBlock HorizontalAlignment="Left" Height="28" Margin="19,354,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="414" FontSize="14" TextAlignment="Center"><Run Text="若有Bug需修复请到Github上提交issues,我会在每周回家时处理。"/><LineBreak/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="30" Margin="67,319,0,0" TextWrapping="Wrap" Text="欢迎测试者！你目前处在Alpha软件通道" VerticalAlignment="Top" Width="326" FontSize="18"/>
+
+    </Grid>
+</Window>

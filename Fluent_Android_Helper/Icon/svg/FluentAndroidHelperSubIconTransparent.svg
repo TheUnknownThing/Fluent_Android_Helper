@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1041.777" height="647.141" viewBox="0 0 1041.777 647.141">
+  <defs>
+    <filter id="Fluent" x="0" y="0" width="496" height="220" filterUnits="userSpaceOnUse">
+      <feOffset dx="-6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.459"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="FluentAndroidHelperSubIconTransparent" transform="translate(18 6)">
+    <path id="路径_137" data-name="路径 137" d="M505.155,96.845l44.4-76.905a9.382,9.382,0,0,0-16.009-9.39l-44.969,78.1a279,279,0,0,0-228.428,0L215.182,10.732a9.39,9.39,0,0,0-16.008,9.391l44.4,76.743a262.166,262.166,0,0,0-135.94,209.91H641.176A262.247,262.247,0,0,0,505.155,96.865ZM251.49,230.761a22.221,22.221,0,1,1,21.443-16.48A22.262,22.262,0,0,1,251.49,230.761Zm245.631,0a22.232,22.232,0,1,1,22.191-22.272A22.232,22.232,0,0,1,497.121,230.761Z" transform="translate(382.601 189.037)" fill="#00de7a"/>
+    <text id="Helper" transform="translate(0 491.46)" fill="#00de7a" stroke="#00de7a" stroke-width="1" font-size="151" font-family="GoogleSans-Bold, Google Sans" font-weight="700"><tspan x="0" y="0">Helper</tspan></text>
+    <text id="Open_Source_Free_Easy_to_use" data-name="Open Source   Free   Easy to use" transform="translate(31.112 622.141)" fill="#308769" stroke="#dbf2ea" stroke-width="1" font-size="64" font-family="GoogleSans-Bold, Google Sans" font-weight="700"><tspan x="0" y="0" xml:space="preserve">Open Source   Free   Easy to use</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, -18, -6)" filter="url(#Fluent)">
+      <text id="Fluent-2" data-name="Fluent" stroke-linejoin="bevel" fill="#00de7a" stroke="#00de7a" stroke-linecap="round" transform="translate(18 157)" stroke-width="3" font-size="157" font-family="GoogleSans-Bold, Google Sans" font-weight="700"><tspan x="0" y="0">Fluent</tspan></text>
+    </g>
+    <text id="Android" transform="translate(0 321.562)" fill="#00de7a" stroke="#00de7a" stroke-width="1" font-size="151" font-family="GoogleSans-Bold, Google Sans" font-weight="700"><tspan x="0" y="0">Android</tspan></text>
+  </g>
+</svg>

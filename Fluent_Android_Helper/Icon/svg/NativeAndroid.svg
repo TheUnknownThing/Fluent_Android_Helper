@@ -1,0 +1,6 @@
+<svg id="NativeAndroid" xmlns="http://www.w3.org/2000/svg" width="1107.874" height="250" viewBox="0 0 1107.874 250">
+  <path id="路径_182" data-name="路径 182" d="M293.9,49.133,314.707,13.1a4.4,4.4,0,0,0-7.5-4.4L286.135,45.292a130.732,130.732,0,0,0-107.034,0L158.029,8.782a4.4,4.4,0,0,0-7.5,4.4l20.806,35.959a122.843,122.843,0,0,0-63.7,98.358h250A122.881,122.881,0,0,0,293.9,49.142Zm-118.86,62.749a10.412,10.412,0,1,1,10.048-7.722A10.431,10.431,0,0,1,175.042,111.881Zm115.1,0a10.417,10.417,0,1,1,10.4-10.436A10.417,10.417,0,0,1,290.137,111.881Z" transform="translate(-107.637 53.895)" fill="#00de7a"/>
+  <text id="Native_Android" data-name="Native Android" transform="translate(282.874 129)" fill="#707070" font-size="135" font-family="Calibri"><tspan x="0" y="0">Native Android</tspan></text>
+  <text id="Toolbox" transform="translate(286.874 224)" fill="#707070" font-size="98" font-family="Calibri"><tspan x="0" y="0">Toolbox</tspan></text>
+  <text id="Beta" transform="translate(938.874 233)" fill="#707070" font-size="75" font-family="CenturyGothic, Century Gothic"><tspan x="0" y="0">Beta</tspan></text>
+</svg>

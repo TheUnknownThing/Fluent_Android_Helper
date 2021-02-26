@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="237.5" height="250.759" viewBox="0 0 237.5 250.759">
+  <g id="组_33" data-name="组 33" transform="translate(0 0.759)">
+    <path id="路径_141" data-name="路径 141" d="M24.25,50.5a6.25,6.25,0,0,1,0-12.5Z" transform="translate(94.5 199.5)" fill="#107c42"/>
+    <path id="路径_142" data-name="路径 142" d="M25.25,44.25A6.268,6.268,0,0,1,19,50.5V38A6.268,6.268,0,0,1,25.25,44.25Z" transform="translate(99.75 199.5)" fill="#185c37"/>
+    <circle id="椭圆_11" data-name="椭圆 11" cx="6.25" cy="6.25" r="6.25" transform="translate(225 37.5)" fill="#21a366"/>
+    <circle id="椭圆_12" data-name="椭圆 12" cx="6.25" cy="6.25" r="6.25" transform="translate(0 37.5)" fill="#33c481"/>
+    <path id="路径_143" data-name="路径 143" d="M19,138.75l2.688,5.688S116.313,95.062,134.688,20H19Z" transform="translate(99.75 105)" fill="#0370c8"/>
+    <path id="路径_144" data-name="路径 144" d="M137.75,43.75,131.5,37.5C62,37.5,61,0,19,0V125H134.688a106.544,106.544,0,0,0,3.063-25C137.75,80.375,137.75,43.75,137.75,43.75Z" transform="translate(99.75)" fill="#248fe1"/>
+    <path id="路径_145" data-name="路径 145" d="M116.177,138.75l-2.687,5.688S18.865,95.062.49,20H116.177Z" transform="translate(2.572 105)" fill="#1565a5"/>
+    <path id="路径_146" data-name="路径 146" d="M0,43.75,6.25,37.5C75.75,37.5,76.75,0,118.75,0V125H3.063A106.544,106.544,0,0,1,0,100Z" fill="#289ef8"/>
+  </g>
+</svg>

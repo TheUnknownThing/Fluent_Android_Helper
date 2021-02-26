@@ -1,0 +1,30 @@
+<svg id="CommandLine" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="616.847" height="200.127" viewBox="0 0 616.847 200.127">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.014" y1="0.884" x2="0.992" y2="-0.079" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4c4c4c"/>
+      <stop offset="1" stop-color="#343434"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.122" y1="-0.672" x2="0.607" y2="-0.187" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a0a0a0"/>
+      <stop offset="0.569" stop-color="#9e9e9e"/>
+      <stop offset="0.774" stop-color="#979797"/>
+      <stop offset="0.92" stop-color="#8c8c8c"/>
+      <stop offset="1" stop-color="#818181"/>
+    </linearGradient>
+  </defs>
+  <g id="组_19" data-name="组 19">
+    <rect id="矩形_1" data-name="矩形 1" width="87.556" height="43.778" transform="translate(87.556)" fill="#999"/>
+    <path id="路径_84" data-name="路径 84" d="M103.048,0H28V43.778h87.556V12.508A12.545,12.545,0,0,0,103.048,0Z" transform="translate(147.111)" fill="#666"/>
+    <path id="路径_85" data-name="路径 85" d="M12.508,0A12.5,12.5,0,0,0,0,12.508v31.27H87.556V0Z" fill="#ccc"/>
+    <path id="路径_86" data-name="路径 86" d="M262.667,5H0V161.349a12.5,12.5,0,0,0,12.508,12.508H250.159a12.545,12.545,0,0,0,12.508-12.508Z" transform="translate(0 26.27)" fill="url(#linear-gradient)"/>
+    <path id="路径_87" data-name="路径 87" d="M22.062,12.32,7.552,26.829a8.267,8.267,0,0,0,0,11.632L32.443,63.352l-25.2,25.2a8.267,8.267,0,0,0,0,11.632L21.749,114.7a8.267,8.267,0,0,0,11.632,0L78.91,69.168a8.267,8.267,0,0,0,0-11.632L33.694,12.32A8.267,8.267,0,0,0,22.062,12.32Z" transform="translate(25.469 52.159)" opacity="0.05"/>
+    <path id="路径_88" data-name="路径 88" d="M21.091,12.109,7.332,25.868a5.7,5.7,0,0,0,0,8.005l26.7,26.7L7.019,87.595a5.7,5.7,0,0,0,0,8.005l13.759,13.759a5.7,5.7,0,0,0,8.005,0L73.561,64.58a5.7,5.7,0,0,0,0-8.005L29.1,12.109A5.7,5.7,0,0,0,21.091,12.109Z" transform="translate(28.253 54.996)" opacity="0.07"/>
+    <path id="路径_89" data-name="路径 89" d="M6.792,60.511,50.445,16.859a3.057,3.057,0,0,1,4.315,0L67.768,29.867a3.057,3.057,0,0,1,0,4.315L24.116,77.835a3.057,3.057,0,0,1-4.315,0L6.855,64.827A3,3,0,0,1,6.792,60.511Z" transform="translate(31.044 83.893)" fill="url(#linear-gradient-2)"/>
+    <path id="路径_90" data-name="路径 90" d="M24.172,11.889,67.825,55.541a3.057,3.057,0,0,1,0,4.315L54.817,72.865a3.057,3.057,0,0,1-4.315,0L6.849,29.212a3.057,3.057,0,0,1,0-4.315L19.794,11.889A3.133,3.133,0,0,1,24.172,11.889Z" transform="translate(31.301 57.781)" fill="#d0d0d0"/>
+    <path id="路径_91" data-name="路径 91" d="M19,29.254V54.27a6.272,6.272,0,0,0,6.254,6.254H131.571a6.272,6.272,0,0,0,6.254-6.254V29.254A6.272,6.272,0,0,0,131.571,23H25.254A6.272,6.272,0,0,0,19,29.254Z" transform="translate(99.825 120.841)" opacity="0.05"/>
+    <path id="路径_92" data-name="路径 92" d="M128.382,54.77H23.19a3.657,3.657,0,0,1-3.69-3.69V27.19a3.657,3.657,0,0,1,3.69-3.69H128.382a3.657,3.657,0,0,1,3.69,3.69V51.08A3.657,3.657,0,0,1,128.382,54.77Z" transform="translate(102.452 123.468)" opacity="0.07"/>
+    <path id="路径_93" data-name="路径 93" d="M23.127,24H123.19a3.1,3.1,0,0,1,3.127,3.127V45.889a3.1,3.1,0,0,1-3.127,3.127H23.127A3.1,3.1,0,0,1,20,45.889V27.127A3.1,3.1,0,0,1,23.127,24Z" transform="translate(105.079 126.095)" fill="#d4d4d4"/>
+  </g>
+  <text id="命令行" transform="translate(323.576 108.011)" fill="#707070" font-size="86" font-family="MicrosoftYaHei-Bold, Microsoft YaHei" font-weight="700"><tspan x="0" y="0">命令行</tspan></text>
+  <text id="ADB_FB命令行" data-name="ADB/FB命令行" transform="translate(323.576 187.011)" fill="#707070" font-size="43" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">ADB/FB命令行</tspan></text>
+</svg>

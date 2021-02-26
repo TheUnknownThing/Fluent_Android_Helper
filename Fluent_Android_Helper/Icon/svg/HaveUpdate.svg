@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="250" height="250" viewBox="0 0 250 250">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.873" cy="0.592" r="0.592" gradientTransform="matrix(1.018, 0, 0, -1, -0.016, 1.73)" gradientUnits="objectBoundingBox">
+      <stop offset="0.683" stop-color="#c24717"/>
+      <stop offset="0.756" stop-color="#bb4417"/>
+      <stop offset="0.862" stop-color="#a83b18"/>
+      <stop offset="0.987" stop-color="#892c1a"/>
+      <stop offset="1" stop-color="#852a1a"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0.127" cy="0.407" r="0.592" gradientTransform="matrix(-1.018, 0, 0, 1, -197.661, 0)" xlink:href="#radial-gradient"/>
+    <linearGradient id="linear-gradient" x1="0.235" y1="0.958" x2="0.76" y2="0.149" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fed100"/>
+      <stop offset="1" stop-color="#e36001"/>
+    </linearGradient>
+  </defs>
+  <g id="组_2" data-name="组 2" transform="translate(-0.002)">
+    <path id="路径_5" data-name="路径 5" d="M29.1,4.27l.16-.5a1.991,1.991,0,0,0-1.18-2.49A19.985,19.985,0,0,0,3.14,28.81L8.49,26.1a13.948,13.948,0,0,1,.25-12.68C12.1,7.1,19.69,4.24,26.82,5.61A2,2,0,0,0,29.1,4.27Z" fill="url(#radial-gradient)"/>
+    <path id="路径_6" data-name="路径 6" d="M13.09,35.73l-.16.5a1.991,1.991,0,0,0,1.18,2.49A19.986,19.986,0,0,0,39.06,11.2L33.7,13.9a13.948,13.948,0,0,1-.25,12.68c-3.36,6.31-10.95,9.17-18.08,7.81A2.011,2.011,0,0,0,13.09,35.73Z" transform="translate(207.81 210)" fill="url(#radial-gradient-2)"/>
+    <path id="路径_7" data-name="路径 7" d="M42.06,125A92.058,92.058,0,0,0,49.7,161.625l14.7-7.875c4.148-2.187,8.77,1.938,7.288,6.625l-14.458,46.75a7.3,7.3,0,0,1-9.3,5L3.6,196.875c-4.444-1.5-4.859-7.875-.77-10.125L18,178.625C-2.856,132.188,4.788,75,41.171,36.625,64.34,12.188,94.678,0,125.017,0,125.017,0,42.06,37.5,42.06,125ZM246.432,53.125l-44.382-15.25a7.409,7.409,0,0,0-9.362,5l-14.458,46.75c-1.422,4.688,3.2,8.813,7.348,6.625l14.7-7.875a91.11,91.11,0,0,1,7.7,36.625c0,87.5-82.958,125-82.958,125,30.339,0,60.678-12.187,83.787-36.625,36.442-38.437,44.086-95.563,23.169-142l15.169-8.125C251.291,61.063,250.817,54.625,246.432,53.125Z" transform="translate(0)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

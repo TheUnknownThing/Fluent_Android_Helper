@@ -15,6 +15,21 @@
     <Deterministic>true</Deterministic>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -25,6 +40,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -39,7 +55,7 @@
     <StartupObject>Fluent_Android_Helper.App</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Icon\FluentAndroidHelperApplicationIcon.ico</ApplicationIcon>
+    <ApplicationIcon>FluentAndroidHelperApplicationIcon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="FluentWPF, Version=0.8.0.6, Culture=neutral, processorArchitecture=MSIL">
@@ -54,8 +70,45 @@
     <Reference Include="ModernWpf.MessageBox, Version=0.3.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\ModernWpf.MessageBox.0.3.0\lib\net45\ModernWpf.MessageBox.dll</HintPath>
     </Reference>
+    <Reference Include="ReachFramework" />
+    <Reference Include="SharpVectors.Converters.Wpf, Version=1.7.1.0, Culture=neutral, PublicKeyToken=b532964b8548be77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\SharpVector\SharpVectors.Converters.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpVectors.Core, Version=1.7.1.0, Culture=neutral, PublicKeyToken=7407205e337c98ef, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\SharpVector\SharpVectors.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpVectors.Css, Version=1.7.1.0, Culture=neutral, PublicKeyToken=7a46e3f532fdb787, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\SharpVector\SharpVectors.Css.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpVectors.Dom, Version=1.7.1.0, Culture=neutral, PublicKeyToken=517340b6277b1a7a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\SharpVector\SharpVectors.Dom.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpVectors.Model, Version=1.7.1.0, Culture=neutral, PublicKeyToken=2236cfc76b505845, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\SharpVector\SharpVectors.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpVectors.Notifications.Wpf">
+      <HintPath>packages\SharpVector\SharpVectors.Notifications.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpVectors.Rendering.Wpf, Version=1.7.1.0, Culture=neutral, PublicKeyToken=d0902381100df30e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\SharpVector\SharpVectors.Rendering.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpVectors.Runtime.Wpf, Version=1.7.1.0, Culture=neutral, PublicKeyToken=d16e717f0a981fb9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\SharpVector\SharpVectors.Runtime.Wpf.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Printing" />
     <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>packages\System.ValueTuple.4.5.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
     </Reference>
@@ -80,7 +133,7 @@
     </ApplicationDefinition>
     <Compile Include="CheckADBFile.cs" />
     <Compile Include="Devices.cs" />
-    <Compile Include="Input Simulate Views\Function.xaml.cs">
+    <Compile Include="Input_Simulate_Views\Function.xaml.cs">
       <DependentUpon>Function.xaml</DependentUpon>
     </Compile>
     <Compile Include="MiToolbox.xaml.cs">
@@ -90,62 +143,330 @@
       <DependentUpon>NativeAndroidToolbox.xaml</DependentUpon>
     </Compile>
     <Compile Include="Software_preferences.cs" />
-    <Compile Include="Second Level Item\About.xaml.cs">
+    <Compile Include="Second_Level_Item\About.xaml.cs">
       <DependentUpon>About.xaml</DependentUpon>
     </Compile>
     <Compile Include="ADBExecutor.cs" />
     <Compile Include="CheckADB.xaml.cs">
       <DependentUpon>CheckADB.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Second Level Item\Command_Line.xaml.cs">
+    <Compile Include="Second_Level_Item\Command_Line.xaml.cs">
       <DependentUpon>Command_Line.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Second Level Item\Fonts.xaml.cs">
+    <Compile Include="Second_Level_Item\Fonts.xaml.cs">
       <DependentUpon>Fonts.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Input Simulate Views\Keyboard_Simulate.xaml.cs">
+    <Compile Include="Input_Simulate_Views\Keyboard_Simulate.xaml.cs">
       <DependentUpon>Keyboard_Simulate.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Input Simulate Views\Touch_Simulate.xaml.cs">
+    <Compile Include="Input_Simulate_Views\Touch_Simulate.xaml.cs">
       <DependentUpon>Touch_Simulate.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Second Level Item\Input_Simulate.xaml.cs">
+    <Compile Include="Second_Level_Item\Input_Simulate.xaml.cs">
       <DependentUpon>Input_Simulate.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Second Level Item\Software_Management.xaml.cs">
+    <Compile Include="Second_Level_Item\Software_Management.xaml.cs">
       <DependentUpon>Software_Management.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Software Management Views\FreezeGoogle.xaml.cs">
+    <Compile Include="Software_Management_Views\FreezeGoogle.xaml.cs">
       <DependentUpon>FreezeGoogle.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Software Management Views\Function.xaml.cs">
+    <Compile Include="Software_Management_Views\Function.xaml.cs">
       <DependentUpon>Function.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Software Management Views\ManageApps.xaml.cs">
+    <Compile Include="Software_Management_Views\ManageApps.xaml.cs">
       <DependentUpon>ManageApps.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Second Level Item\Software_Settings.xaml.cs">
+    <Compile Include="Second_Level_Item\Software_Settings.xaml.cs">
       <DependentUpon>Software_Settings.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Software Settings Views\About.xaml.cs">
+    <Compile Include="Software_Settings_Views\About.xaml.cs">
       <DependentUpon>About.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Software Settings Views\Github.xaml.cs">
+    <Compile Include="Software_Settings_Views\Github.xaml.cs">
       <DependentUpon>Github.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Software Settings Views\Theme.xaml.cs">
+    <Compile Include="Software_Settings_Views\Theme.xaml.cs">
       <DependentUpon>Theme.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Second Level Item\Update.xaml.cs">
+    <Compile Include="Second_Level_Item\Update.xaml.cs">
       <DependentUpon>Update.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Second Level Item\UI_Modify.xaml.cs">
+    <Compile Include="Second_Level_Item\UI_Modify.xaml.cs">
       <DependentUpon>UI_Modify.xaml</DependentUpon>
     </Compile>
     <Compile Include="StartupMenu.xaml.cs">
       <DependentUpon>StartupMenu.xaml</DependentUpon>
     </Compile>
-    <Page Include="Input Simulate Views\Function.xaml">
+    <Page Include="Icon\xaml\About.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\ActivateApps.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\ADBCheckFailed.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\ADBCheckOK.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\Alpha.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\Appearence.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\Application.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\backforward.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\BluetoothOff.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\BluetoothOn.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\Cloud.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\Code.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\CommandLine.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\Down.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\fastforward.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\FlashImage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\FluentAndroidHelperSubIcon.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\FluentAndroidHelperSubIconTransparent.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\Font.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\full.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\Github.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\google.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\HaveUpdate.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\Home.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\HuaweiToolbox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\Icon.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\icons-1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\icons8_code.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\Left.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\Lock.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\memory_slot.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\Miscellaneous.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\MiToolbox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\MTK.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\MTP.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\MultiTasking.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\NativeAndroid.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\next.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\previous.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\Qualcomm.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\RebootFB.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\RebootREC.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\RebootSYS.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\reduce.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\resize.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\Right.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\Root.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\Settings.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\Shutdown.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\SimulateButton.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\Start.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\Stop.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\Tab.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\unpin_2.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\Up.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\Update.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\Updated.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\UpdateLogs.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\VolumeDown.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\VolumeOff.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\VolumeTurnUp.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\watches_front_view.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\Wifi.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\WifiOff.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\WifiOn.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\ZoomIn.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Icon\xaml\ZoomOut.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Input_Simulate_Views\Function.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -157,7 +478,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Second Level Item\About.xaml">
+    <Page Include="Second_Level_Item\About.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -165,19 +486,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Second Level Item\Command_Line.xaml">
+    <Page Include="Second_Level_Item\Command_Line.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Second Level Item\Fonts.xaml">
+    <Page Include="Second_Level_Item\Fonts.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Input Simulate Views\Keyboard_Simulate.xaml">
+    <Page Include="Input_Simulate_Views\Keyboard_Simulate.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Input Simulate Views\Touch_Simulate.xaml">
+    <Page Include="Input_Simulate_Views\Touch_Simulate.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -200,47 +521,47 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Second Level Item\Input_Simulate.xaml">
+    <Page Include="Second_Level_Item\Input_Simulate.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Second Level Item\Software_Management.xaml">
+    <Page Include="Second_Level_Item\Software_Management.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Software Management Views\FreezeGoogle.xaml">
+    <Page Include="Software_Management_Views\FreezeGoogle.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Software Management Views\Function.xaml">
+    <Page Include="Software_Management_Views\Function.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Software Management Views\ManageApps.xaml">
+    <Page Include="Software_Management_Views\ManageApps.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Second Level Item\Software_Settings.xaml">
+    <Page Include="Second_Level_Item\Software_Settings.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Software Settings Views\About.xaml">
+    <Page Include="Software_Settings_Views\About.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Software Settings Views\Github.xaml">
+    <Page Include="Software_Settings_Views\Github.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Software Settings Views\Theme.xaml">
+    <Page Include="Software_Settings_Views\Theme.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Second Level Item\Update.xaml">
+    <Page Include="Second_Level_Item\Update.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Second Level Item\UI_Modify.xaml">
+    <Page Include="Second_Level_Item\UI_Modify.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -268,6 +589,55 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="packages.config" />
+    <None Include="packages\FluentWPF.0.8.0\.signature.p7s" />
+    <None Include="packages\FluentWPF.0.8.0\FluentWPF.0.8.0.nupkg" />
+    <None Include="packages\FluentWPF.0.8.0\LICENSE" />
+    <None Include="packages\ModernWpf.MessageBox.0.3.0\.signature.p7s" />
+    <None Include="packages\ModernWpf.MessageBox.0.3.0\ModernWpf.MessageBox.0.3.0.nupkg" />
+    <None Include="packages\ModernWpfUI.0.9.2\.signature.p7s" />
+    <None Include="packages\ModernWpfUI.0.9.2\ModernWpfUI.0.9.2.nupkg" />
+    <None Include="packages\System.Runtime.WindowsRuntime.4.6.0\.signature.p7s" />
+    <None Include="packages\System.Runtime.WindowsRuntime.4.6.0\buildTransitive\net451\System.Runtime.WindowsRuntime.targets" />
+    <None Include="packages\System.Runtime.WindowsRuntime.4.6.0\buildTransitive\net45\System.Runtime.WindowsRuntime.targets" />
+    <None Include="packages\System.Runtime.WindowsRuntime.4.6.0\buildTransitive\net461\System.Runtime.WindowsRuntime.targets" />
+    <None Include="packages\System.Runtime.WindowsRuntime.4.6.0\build\net451\System.Runtime.WindowsRuntime.targets" />
+    <None Include="packages\System.Runtime.WindowsRuntime.4.6.0\build\net45\System.Runtime.WindowsRuntime.targets" />
+    <None Include="packages\System.Runtime.WindowsRuntime.4.6.0\build\net461\System.Runtime.WindowsRuntime.targets" />
+    <None Include="packages\System.Runtime.WindowsRuntime.4.6.0\lib\net45\_._" />
+    <None Include="packages\System.Runtime.WindowsRuntime.4.6.0\lib\portable-win8+wp8+wpa81\_._" />
+    <None Include="packages\System.Runtime.WindowsRuntime.4.6.0\lib\uap10.0.16299\_._" />
+    <None Include="packages\System.Runtime.WindowsRuntime.4.6.0\lib\win8\_._" />
+    <None Include="packages\System.Runtime.WindowsRuntime.4.6.0\lib\wp80\_._" />
+    <None Include="packages\System.Runtime.WindowsRuntime.4.6.0\lib\wpa81\_._" />
+    <None Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\net45\_._" />
+    <None Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\portable-win8+wp8+wpa81\_._" />
+    <None Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\uap10.0.16299\_._" />
+    <None Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\win8\_._" />
+    <None Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\wp80\_._" />
+    <None Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\wpa81\_._" />
+    <None Include="packages\System.Runtime.WindowsRuntime.4.6.0\runtimes\win-aot\lib\uap10.0.16299\_._" />
+    <None Include="packages\System.Runtime.WindowsRuntime.4.6.0\runtimes\win\lib\uap10.0.16299\_._" />
+    <None Include="packages\System.Runtime.WindowsRuntime.4.6.0\System.Runtime.WindowsRuntime.4.6.0.nupkg" />
+    <None Include="packages\System.ValueTuple.4.5.0\.signature.p7s" />
+    <None Include="packages\System.ValueTuple.4.5.0\lib\MonoAndroid10\_._" />
+    <None Include="packages\System.ValueTuple.4.5.0\lib\MonoTouch10\_._" />
+    <None Include="packages\System.ValueTuple.4.5.0\lib\netcoreapp2.0\_._" />
+    <None Include="packages\System.ValueTuple.4.5.0\lib\netstandard2.0\_._" />
+    <None Include="packages\System.ValueTuple.4.5.0\lib\uap10.0.16299\_._" />
+    <None Include="packages\System.ValueTuple.4.5.0\lib\xamarinios10\_._" />
+    <None Include="packages\System.ValueTuple.4.5.0\lib\xamarinmac20\_._" />
+    <None Include="packages\System.ValueTuple.4.5.0\lib\xamarintvos10\_._" />
+    <None Include="packages\System.ValueTuple.4.5.0\lib\xamarinwatchos10\_._" />
+    <None Include="packages\System.ValueTuple.4.5.0\ref\MonoAndroid10\_._" />
+    <None Include="packages\System.ValueTuple.4.5.0\ref\MonoTouch10\_._" />
+    <None Include="packages\System.ValueTuple.4.5.0\ref\netcoreapp2.0\_._" />
+    <None Include="packages\System.ValueTuple.4.5.0\ref\netstandard2.0\_._" />
+    <None Include="packages\System.ValueTuple.4.5.0\ref\uap10.0.16299\_._" />
+    <None Include="packages\System.ValueTuple.4.5.0\ref\xamarinios10\_._" />
+    <None Include="packages\System.ValueTuple.4.5.0\ref\xamarinmac20\_._" />
+    <None Include="packages\System.ValueTuple.4.5.0\ref\xamarintvos10\_._" />
+    <None Include="packages\System.ValueTuple.4.5.0\ref\xamarinwatchos10\_._" />
+    <None Include="packages\System.ValueTuple.4.5.0\System.ValueTuple.4.5.0.nupkg" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -277,86 +647,313 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Icon\About.png" />
-    <Resource Include="Icon\ADBCheckFailed.png" />
-    <Resource Include="Icon\ADBCheckOK.png" />
-    <Resource Include="Icon\Appearence.png" />
-    <Resource Include="Icon\Application.png" />
-    <Resource Include="Icon\BluetoothOff.png" />
-    <Resource Include="Icon\BluetoothOn.png" />
-    <Resource Include="Icon\Cloud.png" />
-    <Resource Include="Icon\Code.png" />
-    <Resource Include="Icon\CommandLine.png" />
-    <Resource Include="Icon\Down.png" />
-    <Resource Include="Icon\FluentAndroidHelperSubIcon.png" />
-    <Resource Include="Icon\FluentAndroidHelperSubIconTransparent.png" />
-    <Resource Include="Icon\Font.png" />
-    <Resource Include="Icon\Github.png" />
-    <Resource Include="Icon\HaveUpdate.png" />
-    <Resource Include="Icon\Home.png" />
-    <Resource Include="Icon\Icon.png" />
-    <Resource Include="Icon\Left.png" />
-    <Resource Include="Icon\Lock.png" />
-    <Resource Include="Icon\MTP.png" />
-    <Resource Include="Icon\RebootFB.png" />
-    <Resource Include="Icon\RebootREC.png" />
-    <Resource Include="Icon\RebootSYS.png" />
-    <Resource Include="Icon\Right.png" />
-    <Resource Include="Icon\Settings.png" />
-    <Resource Include="Icon\Shutdown.png" />
-    <Resource Include="Icon\SimulateButton.png" />
-    <Resource Include="Icon\Start.png" />
-    <Resource Include="Icon\Stop.png" />
-    <Resource Include="Icon\Up.png" />
-    <Resource Include="Icon\Update.png" />
-    <Resource Include="Icon\Updated.png" />
-    <Resource Include="Icon\UpdateLogs.png" />
-    <Resource Include="Icon\VolumeDown.png" />
-    <Resource Include="Icon\VolumeOff.png" />
-    <Resource Include="Icon\VolumeTurnUp.png" />
-    <Resource Include="Icon\WifiOff.png" />
-    <Resource Include="Icon\WifiOn.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Icon\MultiTasking.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Icon\ZoomIn.png" />
-    <Resource Include="Icon\ZoomOut.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Icon\backfoward.png" />
-    <Resource Include="Icon\fastfoward.png" />
-    <Resource Include="Icon\next.png" />
-    <Resource Include="Icon\previous.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Icon\alpha.png" />
-    <Resource Include="Icon\full.png" />
-    <Resource Include="Icon\reduce.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Icon\Tab.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Icon\MTK.png" />
-    <Resource Include="Icon\Qualcomm.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Icon\StudioIcon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Icon\MiToolbox.png" />
-    <Resource Include="Icon\NativeAndroid.png" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\ADB_Command_Executor\Command_Executor\Command_Executor.csproj">
       <Project>{82afed00-8474-457e-b0ae-a19a5aa35b3d}</Project>
       <Name>Command_Executor</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Icon\png\About.png" />
+    <Resource Include="Icon\png\ActivateApps.png" />
+    <Resource Include="Icon\png\ADBCheckFailed.png" />
+    <Resource Include="Icon\png\ADBCheckOK.png" />
+    <Resource Include="Icon\png\alpha.png" />
+    <Resource Include="Icon\png\Appearence.png" />
+    <Resource Include="Icon\png\Application.png" />
+    <Resource Include="Icon\png\backforward.png" />
+    <Resource Include="Icon\png\BluetoothOff.png" />
+    <Resource Include="Icon\png\BluetoothOn.png" />
+    <Resource Include="Icon\png\Cloud.png" />
+    <Resource Include="Icon\png\Code.png" />
+    <Resource Include="Icon\png\CommandLine.png" />
+    <Resource Include="Icon\png\Down.png" />
+    <Resource Include="Icon\png\fastforward.png" />
+    <Resource Include="Icon\png\FlashImage.png" />
+    <Resource Include="Icon\png\FluentAndroidHelperSubIcon.png" />
+    <Resource Include="Icon\png\FluentAndroidHelperSubIconTransparent.png" />
+    <Resource Include="Icon\png\Font.png" />
+    <Resource Include="Icon\png\full.png" />
+    <Resource Include="Icon\png\Github.png" />
+    <Resource Include="Icon\png\google.png" />
+    <Resource Include="Icon\png\HaveUpdate.png" />
+    <Resource Include="Icon\png\Home.png" />
+    <Resource Include="Icon\png\HuaweiToolbox.png" />
+    <Resource Include="Icon\png\Icon.png" />
+    <Resource Include="Icon\png\icons-1.png" />
+    <Resource Include="Icon\png\icons8_code.png" />
+    <Resource Include="Icon\png\Left.png" />
+    <Resource Include="Icon\png\Lock.png" />
+    <Resource Include="Icon\png\memory_slot.png" />
+    <Resource Include="Icon\png\Miscellaneous.png" />
+    <Resource Include="Icon\png\MiToolbox.png" />
+    <Resource Include="Icon\png\MTK.png" />
+    <Resource Include="Icon\png\MTP.png" />
+    <Resource Include="Icon\png\MultiTasking.png" />
+    <Resource Include="Icon\png\NativeAndroid.png" />
+    <Resource Include="Icon\png\next.png" />
+    <Resource Include="Icon\png\previous.png" />
+    <Resource Include="Icon\png\Qualcomm.png" />
+    <Resource Include="Icon\png\RebootFB.png" />
+    <Resource Include="Icon\png\RebootREC.png" />
+    <Resource Include="Icon\png\RebootSYS.png" />
+    <Resource Include="Icon\png\reduce.png" />
+    <Resource Include="Icon\png\resize.png" />
+    <Resource Include="Icon\png\Right.png" />
+    <Resource Include="Icon\png\Root.png" />
+    <Resource Include="Icon\png\Settings.png" />
+    <Resource Include="Icon\png\Shutdown.png" />
+    <Resource Include="Icon\png\SimulateButton.png" />
+    <Resource Include="Icon\png\Start.png" />
+    <Resource Include="Icon\png\Stop.png" />
+    <Resource Include="Icon\png\StudioIcon.png" />
+    <Resource Include="Icon\png\Tab.png" />
+    <Resource Include="Icon\png\unpin_2.png" />
+    <Resource Include="Icon\png\Up.png" />
+    <Resource Include="Icon\png\Update.png" />
+    <Resource Include="Icon\png\Updated.png" />
+    <Resource Include="Icon\png\UpdateLogs.png" />
+    <Resource Include="Icon\png\VolumeDown.png" />
+    <Resource Include="Icon\png\VolumeOff.png" />
+    <Resource Include="Icon\png\VolumeTurnUp.png" />
+    <Resource Include="Icon\png\watches_front_view.png" />
+    <Resource Include="Icon\png\Wifi.png" />
+    <Resource Include="Icon\png\WifiOff.png" />
+    <Resource Include="Icon\png\WifiOn.png" />
+    <Resource Include="Icon\png\ZoomIn.png" />
+    <Resource Include="Icon\png\ZoomOut.png" />
+    <Resource Include="Icon\png\组 49.png" />
+    <Resource Include="Icon\png\路径 221.png" />
+    <Resource Include="Icon\png\路径 225.png" />
+    <Resource Include="FluentAndroidHelperApplicationIcon.ico" />
+    <Content Include="Icon\svg\About.svg" />
+    <Content Include="Icon\svg\ActivateApps.svg" />
+    <Content Include="Icon\svg\ADBCheckFailed.svg" />
+    <Content Include="Icon\svg\ADBCheckOK.svg" />
+    <Content Include="Icon\svg\Alpha.svg" />
+    <Content Include="Icon\svg\Appearence.svg" />
+    <Content Include="Icon\svg\Application.svg" />
+    <Content Include="Icon\svg\backforward.svg" />
+    <Content Include="Icon\svg\BluetoothOff.svg" />
+    <Content Include="Icon\svg\BluetoothOn.svg" />
+    <Content Include="Icon\svg\Cloud.svg" />
+    <Content Include="Icon\svg\Code.svg" />
+    <Content Include="Icon\svg\CommandLine.svg" />
+    <Content Include="Icon\svg\Down.svg" />
+    <Content Include="Icon\svg\fastforward.svg" />
+    <Content Include="Icon\svg\FlashImage.svg" />
+    <Content Include="Icon\svg\FluentAndroidHelperSubIcon.svg" />
+    <Content Include="Icon\svg\FluentAndroidHelperSubIconTransparent.svg" />
+    <Content Include="Icon\svg\Font.svg" />
+    <Content Include="Icon\svg\full.svg" />
+    <Content Include="Icon\svg\Github.svg" />
+    <Content Include="Icon\svg\google.svg" />
+    <Content Include="Icon\svg\HaveUpdate.svg" />
+    <Content Include="Icon\svg\Home.svg" />
+    <Content Include="Icon\svg\HuaweiToolbox.svg" />
+    <Content Include="Icon\svg\Icon.svg" />
+    <Content Include="Icon\svg\icons-1.svg" />
+    <Content Include="Icon\svg\icons8_code.svg" />
+    <Content Include="Icon\svg\Left.svg" />
+    <Content Include="Icon\svg\Lock.svg" />
+    <Content Include="Icon\svg\memory_slot.svg" />
+    <Content Include="Icon\svg\Miscellaneous.svg" />
+    <Content Include="Icon\svg\MiToolbox.svg" />
+    <Content Include="Icon\svg\MTK.svg" />
+    <Content Include="Icon\svg\MTP.svg" />
+    <Content Include="Icon\svg\MultiTasking.svg" />
+    <Content Include="Icon\svg\NativeAndroid.svg" />
+    <Content Include="Icon\svg\next.svg" />
+    <Content Include="Icon\svg\previous.svg" />
+    <Content Include="Icon\svg\Qualcomm.svg" />
+    <Content Include="Icon\svg\RebootFB.svg" />
+    <Content Include="Icon\svg\RebootREC.svg" />
+    <Content Include="Icon\svg\RebootSYS.svg" />
+    <Content Include="Icon\svg\reduce.svg" />
+    <Content Include="Icon\svg\resize.svg" />
+    <Content Include="Icon\svg\Right.svg" />
+    <Content Include="Icon\svg\Root.svg" />
+    <Content Include="Icon\svg\Settings.svg" />
+    <Content Include="Icon\svg\Shutdown.svg" />
+    <Content Include="Icon\svg\SimulateButton.svg" />
+    <Content Include="Icon\svg\Start.svg" />
+    <Content Include="Icon\svg\Stop.svg" />
+    <Content Include="Icon\svg\Tab.svg" />
+    <Content Include="Icon\svg\unpin_2.svg" />
+    <Content Include="Icon\svg\Up.svg" />
+    <Content Include="Icon\svg\Update.svg" />
+    <Content Include="Icon\svg\Updated.svg" />
+    <Content Include="Icon\svg\UpdateLogs.svg" />
+    <Content Include="Icon\svg\VolumeDown.svg" />
+    <Content Include="Icon\svg\VolumeOff.svg" />
+    <Content Include="Icon\svg\VolumeTurnUp.svg" />
+    <Content Include="Icon\svg\watches_front_view.svg" />
+    <Content Include="Icon\svg\Wifi.svg" />
+    <Content Include="Icon\svg\WifiOff.svg" />
+    <Content Include="Icon\svg\WifiOn.svg" />
+    <Content Include="Icon\svg\ZoomIn.svg" />
+    <Content Include="Icon\svg\ZoomOut.svg" />
+    <Content Include="Icon\svg\组 49.svg" />
+    <Content Include="Icon\svg\路径 221.svg" />
+    <Content Include="Icon\svg\路径 225.svg" />
+    <Content Include="packages\FluentWPF.0.8.0\lib\net45\FluentWPF.dll" />
+    <Content Include="packages\FluentWPF.0.8.0\lib\netcoreapp3.0\FluentWPF.dll" />
+    <Content Include="packages\ModernWpf.MessageBox.0.3.0\lib\net45\ModernWpf.MessageBox.dll" />
+    <Content Include="packages\ModernWpf.MessageBox.0.3.0\lib\net462\ModernWpf.MessageBox.dll" />
+    <Content Include="packages\ModernWpf.MessageBox.0.3.0\lib\netcoreapp3.0\ModernWpf.MessageBox.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net45\cs\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net45\de\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net45\es\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net45\fa\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net45\fr\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net45\it\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net45\ja\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net45\ko\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net45\ModernWpf.Controls.dll" />
     <Resource Include="Icon\FluentAndroidHelperApplicationIcon.ico" />
+    <Resource Include="packages\ModernWpfUI.0.9.2\lib\net45\ModernWpf.Controls.xml" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net45\ModernWpf.dll" />
+    <Resource Include="packages\ModernWpfUI.0.9.2\lib\net45\ModernWpf.xml" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net45\pl\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net45\pt-BR\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net45\ru\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net45\tr\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net45\zh-Hans\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net45\zh-Hant\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net462\cs\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net462\de\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net462\es\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net462\fa\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net462\fr\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net462\it\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net462\ja\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net462\ko\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net462\ModernWpf.Controls.dll" />
+    <Resource Include="packages\ModernWpfUI.0.9.2\lib\net462\ModernWpf.Controls.xml" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net462\ModernWpf.dll" />
+    <Resource Include="packages\ModernWpfUI.0.9.2\lib\net462\ModernWpf.xml" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net462\pl\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net462\pt-BR\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net462\ru\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net462\tr\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net462\zh-Hans\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net462\zh-Hant\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net5.0-windows10.0.18362.0\cs\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net5.0-windows10.0.18362.0\de\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net5.0-windows10.0.18362.0\es\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net5.0-windows10.0.18362.0\fa\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net5.0-windows10.0.18362.0\fr\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net5.0-windows10.0.18362.0\it\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net5.0-windows10.0.18362.0\ja\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net5.0-windows10.0.18362.0\ko\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net5.0-windows10.0.18362.0\ModernWpf.Controls.dll" />
+    <Resource Include="packages\ModernWpfUI.0.9.2\lib\net5.0-windows10.0.18362.0\ModernWpf.Controls.xml" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net5.0-windows10.0.18362.0\ModernWpf.dll" />
+    <Resource Include="packages\ModernWpfUI.0.9.2\lib\net5.0-windows10.0.18362.0\ModernWpf.xml" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net5.0-windows10.0.18362.0\pl\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net5.0-windows10.0.18362.0\pt-BR\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net5.0-windows10.0.18362.0\ref\ModernWpf.Controls.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net5.0-windows10.0.18362.0\ru\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net5.0-windows10.0.18362.0\tr\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net5.0-windows10.0.18362.0\zh-Hans\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\net5.0-windows10.0.18362.0\zh-Hant\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\netcoreapp3.0\cs\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\netcoreapp3.0\de\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\netcoreapp3.0\es\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\netcoreapp3.0\fa\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\netcoreapp3.0\fr\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\netcoreapp3.0\it\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\netcoreapp3.0\ja\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\netcoreapp3.0\ko\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\netcoreapp3.0\ModernWpf.Controls.dll" />
+    <Resource Include="packages\ModernWpfUI.0.9.2\lib\netcoreapp3.0\ModernWpf.Controls.xml" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\netcoreapp3.0\ModernWpf.dll" />
+    <Resource Include="packages\ModernWpfUI.0.9.2\lib\netcoreapp3.0\ModernWpf.xml" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\netcoreapp3.0\pl\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\netcoreapp3.0\pt-BR\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\netcoreapp3.0\ru\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\netcoreapp3.0\tr\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\netcoreapp3.0\zh-Hans\ModernWpf.resources.dll" />
+    <Content Include="packages\ModernWpfUI.0.9.2\lib\netcoreapp3.0\zh-Hant\ModernWpf.resources.dll" />
+    <Resource Include="packages\ModernWpfUI.0.9.2\readme.txt" />
+    <Content Include="packages\SharpVector\SharpVectors.Converters.Wpf.dll" />
+    <Content Include="packages\SharpVector\SharpVectors.Core.dll" />
+    <Content Include="packages\SharpVector\SharpVectors.Css.dll" />
+    <Content Include="packages\SharpVector\SharpVectors.Dom.dll" />
+    <Content Include="packages\SharpVector\SharpVectors.Model.dll" />
+    <Content Include="packages\SharpVector\SharpVectors.Notifications.Wpf.dll" />
+    <Content Include="packages\SharpVector\SharpVectors.Rendering.Wpf.dll" />
+    <Content Include="packages\SharpVector\SharpVectors.Runtime.Wpf.dll" />
+    <Content Include="packages\System.Runtime.WindowsRuntime.4.6.0\lib\netstandard1.0\System.Runtime.WindowsRuntime.dll" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\lib\netstandard1.0\System.Runtime.WindowsRuntime.xml" />
+    <Content Include="packages\System.Runtime.WindowsRuntime.4.6.0\lib\netstandard1.2\System.Runtime.WindowsRuntime.dll" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\lib\netstandard1.2\System.Runtime.WindowsRuntime.xml" />
+    <Content Include="packages\System.Runtime.WindowsRuntime.4.6.0\lib\netstandard2.0\System.Runtime.WindowsRuntime.dll" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\lib\netstandard2.0\System.Runtime.WindowsRuntime.xml" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\LICENSE.TXT" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\netcore50\de\System.Runtime.WindowsRuntime.xml" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\netcore50\es\System.Runtime.WindowsRuntime.xml" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\netcore50\fr\System.Runtime.WindowsRuntime.xml" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\netcore50\it\System.Runtime.WindowsRuntime.xml" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\netcore50\ja\System.Runtime.WindowsRuntime.xml" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\netcore50\ko\System.Runtime.WindowsRuntime.xml" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\netcore50\ru\System.Runtime.WindowsRuntime.xml" />
+    <Content Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\netcore50\System.Runtime.WindowsRuntime.dll" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\netcore50\System.Runtime.WindowsRuntime.xml" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\netcore50\zh-hans\System.Runtime.WindowsRuntime.xml" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\netcore50\zh-hant\System.Runtime.WindowsRuntime.xml" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\netstandard1.0\de\System.Runtime.WindowsRuntime.xml" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\netstandard1.0\es\System.Runtime.WindowsRuntime.xml" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\netstandard1.0\fr\System.Runtime.WindowsRuntime.xml" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\netstandard1.0\it\System.Runtime.WindowsRuntime.xml" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\netstandard1.0\ja\System.Runtime.WindowsRuntime.xml" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\netstandard1.0\ko\System.Runtime.WindowsRuntime.xml" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\netstandard1.0\ru\System.Runtime.WindowsRuntime.xml" />
+    <Content Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\netstandard1.0\System.Runtime.WindowsRuntime.dll" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\netstandard1.0\System.Runtime.WindowsRuntime.xml" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\netstandard1.0\zh-hans\System.Runtime.WindowsRuntime.xml" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\netstandard1.0\zh-hant\System.Runtime.WindowsRuntime.xml" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\netstandard1.2\de\System.Runtime.WindowsRuntime.xml" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\netstandard1.2\es\System.Runtime.WindowsRuntime.xml" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\netstandard1.2\fr\System.Runtime.WindowsRuntime.xml" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\netstandard1.2\it\System.Runtime.WindowsRuntime.xml" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\netstandard1.2\ja\System.Runtime.WindowsRuntime.xml" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\netstandard1.2\ko\System.Runtime.WindowsRuntime.xml" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\netstandard1.2\ru\System.Runtime.WindowsRuntime.xml" />
+    <Content Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\netstandard1.2\System.Runtime.WindowsRuntime.dll" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\netstandard1.2\System.Runtime.WindowsRuntime.xml" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\netstandard1.2\zh-hans\System.Runtime.WindowsRuntime.xml" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\netstandard1.2\zh-hant\System.Runtime.WindowsRuntime.xml" />
+    <Content Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\netstandard2.0\System.Runtime.WindowsRuntime.dll" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\ref\netstandard2.0\System.Runtime.WindowsRuntime.xml" />
+    <Content Include="packages\System.Runtime.WindowsRuntime.4.6.0\runtimes\win-aot\lib\netcore50\System.Runtime.WindowsRuntime.dll" />
+    <Content Include="packages\System.Runtime.WindowsRuntime.4.6.0\runtimes\win\lib\netcore50\System.Runtime.WindowsRuntime.dll" />
+    <Content Include="packages\System.Runtime.WindowsRuntime.4.6.0\runtimes\win\lib\netcoreapp3.0\System.Runtime.WindowsRuntime.dll" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\runtimes\win\lib\netcoreapp3.0\System.Runtime.WindowsRuntime.xml" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\THIRD-PARTY-NOTICES.TXT" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\useSharedDesignerContext.txt" />
+    <Resource Include="packages\System.Runtime.WindowsRuntime.4.6.0\version.txt" />
+    <Content Include="packages\System.ValueTuple.4.5.0\lib\net461\System.ValueTuple.dll" />
+    <Resource Include="packages\System.ValueTuple.4.5.0\lib\net461\System.ValueTuple.xml" />
+    <Content Include="packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll" />
+    <Resource Include="packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.xml" />
+    <Content Include="packages\System.ValueTuple.4.5.0\lib\netstandard1.0\System.ValueTuple.dll" />
+    <Resource Include="packages\System.ValueTuple.4.5.0\lib\netstandard1.0\System.ValueTuple.xml" />
+    <Content Include="packages\System.ValueTuple.4.5.0\lib\portable-net40+sl4+win8+wp8\System.ValueTuple.dll" />
+    <Resource Include="packages\System.ValueTuple.4.5.0\lib\portable-net40+sl4+win8+wp8\System.ValueTuple.xml" />
+    <Resource Include="packages\System.ValueTuple.4.5.0\LICENSE.TXT" />
+    <Content Include="packages\System.ValueTuple.4.5.0\ref\net461\System.ValueTuple.dll" />
+    <Content Include="packages\System.ValueTuple.4.5.0\ref\net47\System.ValueTuple.dll" />
+    <Content Include="packages\System.ValueTuple.4.5.0\ref\portable-net40+sl4+win8+wp8\System.ValueTuple.dll" />
+    <Resource Include="packages\System.ValueTuple.4.5.0\THIRD-PARTY-NOTICES.TXT" />
+    <Resource Include="packages\System.ValueTuple.4.5.0\useSharedDesignerContext.txt" />
+    <Resource Include="packages\System.ValueTuple.4.5.0\version.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\System.Runtime.WindowsRuntime.4.6.0\build\net45\System.Runtime.WindowsRuntime.targets" Condition="Exists('packages\System.Runtime.WindowsRuntime.4.6.0\build\net45\System.Runtime.WindowsRuntime.targets')" />

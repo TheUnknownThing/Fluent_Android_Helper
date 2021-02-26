@@ -1,0 +1,44 @@
+﻿<DrawingGroup xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrawingGroup x:Name="_SvgDrawingLayer">
+    <DrawingGroup.ClipGeometry>
+      <RectangleGeometry Rect="0,0,198.872,250" />
+    </DrawingGroup.ClipGeometry>
+    <DrawingGroup.Transform>
+      <TranslateTransform X="0" Y="0.00020403017697390169" />
+    </DrawingGroup.Transform>
+    <DrawingGroup x:Name="路径_12" Transform="1,0,0,1,58.476,100.65">
+      <GeometryDrawing>
+        <GeometryDrawing.Brush>
+          <LinearGradientBrush StartPoint="-90.417,-22.029" EndPoint="-90.417,-21.414" MappingMode="RelativeToBoundingBox" SpreadMethod="Pad" Opacity="1">
+            <GradientStop Color="#FF1A9BA1" Offset="0" />
+            <GradientStop Color="#FF1A9BA1" Offset="0.365" />
+            <GradientStop Color="#FF1A9BA1" Offset="0.69900000000000007" />
+            <GradientStop Color="#FF1A9BA1" Offset="0.81900000000000006" />
+            <GradientStop Color="#FF1A9BA1" Offset="0.905" />
+            <GradientStop Color="#FF1A9BA1" Offset="0.97400000000000009" />
+            <GradientStop Color="#FF1A9BA1" Offset="1" />
+          </LinearGradientBrush>
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M47.586,146.581L137.627,56.54A9.293,9.293,0,0,0,137.627,43.304L118.6,24.272A9.293,9.293,0,0,0,105.364,24.272L15.264,114.257A9.293,9.293,0,0,0,15.264,127.493L34.295,146.524A9.412,9.412,0,0,0,47.586,146.581z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <GeometryDrawing x:Name="路径_13">
+      <GeometryDrawing.Brush>
+        <LinearGradientBrush StartPoint="-90.417,-22.029" EndPoint="-90.417,-21.414" MappingMode="RelativeToBoundingBox" SpreadMethod="Pad" Opacity="1">
+          <GradientStop Color="#FF1A9BA1" Offset="0" />
+          <GradientStop Color="#FF1A9BA1" Offset="0.365" />
+          <GradientStop Color="#FF1A9BA1" Offset="0.69900000000000007" />
+          <GradientStop Color="#FF1A9BA1" Offset="0.81900000000000006" />
+          <GradientStop Color="#FF1A9BA1" Offset="0.905" />
+          <GradientStop Color="#FF1A9BA1" Offset="0.97400000000000009" />
+          <GradientStop Color="#FF37C6D0" Offset="1" />
+        </LinearGradientBrush>
+      </GeometryDrawing.Brush>
+      <GeometryDrawing.Geometry>
+        <PathGeometry FillRule="Nonzero" Figures="M116.457,0L82.372,0A11.359,11.359,0,0,0,71.011,11.362L71.011,160.882 35.051,124.922A9.361,9.361,0,0,0,21.758,124.922L2.727,143.953A9.4,9.4,0,0,0,2.727,157.189L92.768,247.23A9.293,9.293,0,0,0,106.004,247.23L125.036,228.2A9.324,9.324,0,0,0,127.763,221.553L127.763,11.362A11.239,11.239,0,0,0,116.457,0z" />
+      </GeometryDrawing.Geometry>
+    </GeometryDrawing>
+  </DrawingGroup>
+</DrawingGroup>

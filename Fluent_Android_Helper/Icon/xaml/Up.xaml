@@ -1,0 +1,26 @@
+﻿<DrawingGroup xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrawingGroup x:Name="_SvgDrawingLayer">
+    <DrawingGroup.ClipGeometry>
+      <RectangleGeometry Rect="0,0,198.906,250" />
+    </DrawingGroup.ClipGeometry>
+    <DrawingGroup x:Name="路径_9" Transform="1,0,0,1,58.488,0">
+      <GeometryDrawing Brush="#FF1A9BA1">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M47.592,2.727L137.649,92.784A9.294,9.294,0,0,1,137.649,106.023L118.615,125.057A9.294,9.294,0,0,1,105.376,125.057L15.262,35.057A9.362,9.362,0,0,1,15.262,21.757L34.3,2.727A9.466,9.466,0,0,1,47.592,2.727z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <GeometryDrawing x:Name="路径_10" Brush="#FF37C6D0">
+      <GeometryDrawing.Geometry>
+        <PathGeometry FillRule="Nonzero" Figures="M125.114,35.057L35.057,125.114A9.362,9.362,0,0,1,21.757,125.114L2.727,106.08A9.4,9.4,0,0,1,2.727,92.841L92.784,2.727A9.4,9.4,0,0,1,106.023,2.727L125.057,21.761A9.414,9.414,0,0,1,125.114,35.057z" />
+      </GeometryDrawing.Geometry>
+    </GeometryDrawing>
+    <DrawingGroup x:Name="路径_11" Transform="1,0,0,1,58.523,23.409">
+      <GeometryDrawing Brush="#FF37C6D0">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M69.318,215.227L69.318,5 12.5,22.045 12.5,215.227A11.4,11.4,0,0,0,23.864,226.591L57.955,226.591A11.36,11.36,0,0,0,69.318,215.227z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+  </DrawingGroup>
+</DrawingGroup>

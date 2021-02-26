@@ -1,0 +1,9 @@
+<svg id="MiToolbox" xmlns="http://www.w3.org/2000/svg" width="891" height="250" viewBox="0 0 891 250">
+  <g id="icons8_xiaomi" transform="translate(-6 -6)">
+    <path id="路径_179" data-name="路径 179" d="M6,6H256V256H6Z" fill="#ff7043"/>
+    <path id="路径_180" data-name="路径 180" d="M129.111,15h27.778V140H129.111ZM18,63.611H45.778V140H18Z" transform="translate(71.333 53.5)" fill="#fafafa"/>
+    <path id="路径_181" data-name="路径 181" d="M148.889,56.667V140H121.111V63.611a20.805,20.805,0,0,0-20.833-20.833h-62.5V140H10V15h97.222A41.7,41.7,0,0,1,148.889,56.667Z" transform="translate(23.778 53.5)" fill="#fafafa"/>
+  </g>
+  <text id="Mi_Toolbox" data-name="Mi Toolbox" transform="translate(288 146)" fill="#707070" font-size="135" font-family="Calibri"><tspan x="0" y="0">Mi Toolbox</tspan></text>
+  <text id="Beta" transform="translate(722 233)" fill="#707070" font-size="75" font-family="CenturyGothic, Century Gothic"><tspan x="0" y="0">Beta</tspan></text>
+</svg>

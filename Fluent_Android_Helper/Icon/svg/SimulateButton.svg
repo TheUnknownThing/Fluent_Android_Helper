@@ -1,0 +1,35 @@
+<svg id="SimulateButton" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="664.595" height="200.127" viewBox="0 0 664.595 200.127">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1785.302" y1="10718.354" x2="1785.502" y2="10718.354" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffc430"/>
+      <stop offset="0.57" stop-color="#f8bd29"/>
+      <stop offset="1" stop-color="#f0b421"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.067" y1="0.61" x2="1.226" y2="-0.068" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffc430"/>
+      <stop offset="0.41" stop-color="#fec130"/>
+      <stop offset="0.72" stop-color="#fcb730"/>
+      <stop offset="0.998" stop-color="#f7a72f"/>
+      <stop offset="1" stop-color="#f7a72f"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.348" y1="1.503" x2="-0.323" y2="1.662" gradientUnits="objectBoundingBox">
+      <stop offset="0.282" stop-color="#ffc430"/>
+      <stop offset="0.401" stop-color="#f8bd2d"/>
+      <stop offset="0.574" stop-color="#e5aa23"/>
+      <stop offset="0.78" stop-color="#c58a14"/>
+      <stop offset="1" stop-color="#9c6000"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="-3.727" y1="-59.879" x2="-3.05" y2="-59.388" xlink:href="#linear-gradient-3"/>
+  </defs>
+  <g id="组_17" data-name="组 17">
+    <path id="路径_71" data-name="路径 71" d="M2.84,27.353c0-.051,0-.051.051-.1h0Z" transform="translate(11.732 112.587)" fill="url(#linear-gradient)"/>
+    <path id="路径_72" data-name="路径 72" d="M103.454,86.727,38.135,76.978V13.558C38.135,6.837,33.312.731,26.642.064A12.829,12.829,0,0,0,12.48,12.84V189.708a41.024,41.024,0,0,0,27.246,10.416H94.577a30.811,30.811,0,0,0,30.786-30.786V112.126A25.762,25.762,0,0,0,103.454,86.727Z" transform="translate(51.556 0.003)" fill="url(#linear-gradient-2)"/>
+    <path id="路径_73" data-name="路径 73" d="M17.48,15V45.786L30.872,17Z" transform="translate(72.211 61.981)" fill="url(#linear-gradient-3)"/>
+    <circle id="椭圆_6" data-name="椭圆 6" cx="7.697" cy="7.697" r="7.697" transform="translate(69.167 5.146)" fill="#fff0c9"/>
+    <g id="组_16" data-name="组 16" transform="translate(0 102.637)">
+      <path id="路径_74" data-name="路径 74" d="M12.828,20C4,20,0,25.49,0,32.776l62.035,72.5c.616.616,1.334,1.231,2,1.8V31.648c-11.648,19.909-20.216,2.1-29.093,4.156C34.943,35.8,31.248,20,12.828,20Z" transform="translate(0 -20)" fill="url(#linear-gradient-4)"/>
+    </g>
+  </g>
+  <text id="模拟按键" transform="translate(269.319 107.872)" fill="#707070" font-size="86" font-family="MicrosoftYaHei-Bold, Microsoft YaHei" font-weight="700"><tspan x="0" y="0">模拟按键</tspan></text>
+  <text id="模拟键盘_触屏输入" data-name="模拟键盘、触屏输入" transform="translate(269.319 186.872)" fill="#707070" font-size="43" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">模拟键盘、触屏输入</tspan></text>
+</svg>

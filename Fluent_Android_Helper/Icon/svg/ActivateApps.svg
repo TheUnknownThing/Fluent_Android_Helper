@@ -1,0 +1,21 @@
+<svg id="ActivateApps" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="615.557" height="200.127" viewBox="0 0 615.557 200.127">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.848" y1="0.138" x2="0.087" y2="0.931" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e5a505"/>
+      <stop offset="0.01" stop-color="#e9a804"/>
+      <stop offset="0.06" stop-color="#f4b102"/>
+      <stop offset="0.129" stop-color="#fbb600"/>
+      <stop offset="0.323" stop-color="#fdb700"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.209" y1="0.077" x2="0.777" y2="0.902" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fede00"/>
+      <stop offset="1" stop-color="#ffd000"/>
+    </linearGradient>
+  </defs>
+  <g id="icons8_key_2">
+    <path id="路径_236" data-name="路径 236" d="M45.052,113.8A12.717,12.717,0,0,1,60.21,101.208L66.3,95.122A15.188,15.188,0,0,1,85.385,76.033l21.244-21.244L75.84,24,7.007,92.833A10.266,10.266,0,0,0,4,100.089v6.892a10.266,10.266,0,0,0,3.007,7.256l9.38,9.38a10.25,10.25,0,0,0,7.256,3.012h6.892a10.266,10.266,0,0,0,7.256-3.007l7.492-7.492A13.328,13.328,0,0,1,45.052,113.8Z" transform="translate(-4 73.498)" fill="url(#linear-gradient)"/>
+    <path id="路径_237" data-name="路径 237" d="M85.275,5a69.275,69.275,0,1,0,69.275,69.275A69.274,69.274,0,0,0,85.275,5Zm17.96,71.84a20.526,20.526,0,1,1,20.526-20.526A20.527,20.527,0,0,1,103.235,76.84Z" transform="translate(45.578 -5)" fill="url(#linear-gradient-2)"/>
+  </g>
+  <text id="软件激活" transform="translate(269.219 109.283)" fill="#707070" font-size="86" font-family="MicrosoftYaHei-Bold, Microsoft YaHei" font-weight="700"><tspan x="0" y="0">软件激活</tspan></text>
+  <text id="黑域_冰箱...激活" data-name="黑域/冰箱...激活" transform="translate(269.219 178.283)" fill="#707070" font-size="43" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">黑域/冰箱...激活</tspan></text>
+</svg>

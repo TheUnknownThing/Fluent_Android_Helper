@@ -1,0 +1,18 @@
+<svg id="组_11" data-name="组 11" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="314.218" height="250" viewBox="0 0 314.218 250">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-112.024" y1="-0.492" x2="-112.024" y2="0.123" gradientUnits="objectBoundingBox">
+      <stop offset="0.365" stop-color="#199ae0"/>
+      <stop offset="0.699" stop-color="#1898de"/>
+      <stop offset="0.819" stop-color="#1691d8"/>
+      <stop offset="0.905" stop-color="#1186cc"/>
+      <stop offset="0.974" stop-color="#0a75bc"/>
+      <stop offset="1" stop-color="#076cb3"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-56.782" y1="0.334" x2="-56.226" y2="1.421" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#32bdef"/>
+      <stop offset="1" stop-color="#1ea2e4"/>
+    </linearGradient>
+  </defs>
+  <path id="路径_31" data-name="路径 31" d="M178.737,56.547,65.547,169.737a11.682,11.682,0,0,1-16.639,0L24.984,145.813a11.682,11.682,0,0,1,0-16.639l113.19-113.19a11.682,11.682,0,0,1,16.639,0l23.923,23.923A11.81,11.81,0,0,1,178.737,56.547Z" transform="translate(132.054 76.782)" fill="url(#linear-gradient)"/>
+  <path id="路径_32" data-name="路径 32" d="M310.791,116.618,197.6,3.428a11.81,11.81,0,0,0-16.639,0L157.038,27.351a11.767,11.767,0,0,0,0,16.711l45.2,45.2H14.283A14.279,14.279,0,0,0,0,103.549V146.4A14.279,14.279,0,0,0,14.283,160.68H278.512a11.842,11.842,0,0,0,8.355-3.428l23.923-23.923A11.9,11.9,0,0,0,310.791,116.618Z" fill="url(#linear-gradient-2)"/>
+</svg>
