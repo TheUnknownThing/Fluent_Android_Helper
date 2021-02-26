@@ -1,0 +1,33 @@
+﻿<Page x:Class="Fluent_Android_Helper.Software_Management_Views.ManageApps"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:svgc="http://sharpvectors.codeplex.com/svgc/"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="ManageApps" Width="693" Height="500">
+
+    <Grid>
+        <Label Content="应用管理" HorizontalAlignment="Left" Height="73" Margin="20,16,0,0" VerticalAlignment="Top" Width="225" FontSize="36"/>
+        <DataGrid x:Name="Apps" HorizontalAlignment="Left" ItemsSource="{Binding}" Height="330" Margin="20,89,0,0" VerticalAlignment="Top" Width="469" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding number}" Header="序号" Width="50" />
+                <DataGridTextColumn Binding="{Binding packagename}" Header="应用包名" Width="260" />
+                <DataGridTextColumn Binding="{Binding isSysUsr}" Header="应用安装路径" Width="500"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button x:Name="UninstallSelected" Content="卸载选中应用" HorizontalAlignment="Left" Height="39" Margin="535,135,0,0" VerticalAlignment="Top" Width="135" Click="UninstallSelected_Click"/>
+        <Button x:Name="Clean" Content="清理选中应用数据" HorizontalAlignment="Left" Height="39" Margin="535,223,0,0" VerticalAlignment="Top" Width="135" Click="Clean_Click"/>
+        <Label Content="控制专区" HorizontalAlignment="Left" Height="38" Margin="535,92,0,0" VerticalAlignment="Top" Width="130" FontSize="22"/>
+        <Label Content="应用总数：" HorizontalAlignment="Left" Height="27" Margin="535,366,0,0" VerticalAlignment="Top" Width="76" FontSize="16"/>
+        <Label x:Name="AppTotal" Content="统计中" HorizontalAlignment="Left" Height="27" Margin="594,392,0,0" VerticalAlignment="Top" Width="76" FontSize="16"/>
+        <Button x:Name="UninstallSystem" Content="卸载选中系统应用" HorizontalAlignment="Left" Height="39" Margin="535,179,0,0" VerticalAlignment="Top" Width="135" Click="UninstallSystem_Click"/>
+        <Button x:Name="Refresh" Content="刷新应用列表" HorizontalAlignment="Left" Height="39" Margin="535,267,0,0" VerticalAlignment="Top" Width="135" Click="Refresh_Click"/>
+        <Button x:Name="ActivityDump" Content="查看当前Activity" HorizontalAlignment="Left" Height="39" Margin="535,311,0,0" VerticalAlignment="Top" Width="135" Click="ActivityDump_Click"/>
+        <Button x:Name="InstallApps" Content="安装应用" HorizontalAlignment="Left" Height="39" Margin="535,451,0,0" VerticalAlignment="Top" Width="135" Click="InstallApps_Click"/>
+        <Button x:Name="ChooseAPK" Content="选择APK" HorizontalAlignment="Left" Height="39" Margin="20,451,0,0" VerticalAlignment="Top" Width="135" Click="ChooseAPK_Click"/>
+        <TextBox HorizontalAlignment="Left" Height="39" Margin="160,451,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="329"/>
+
+    </Grid>
+</Page>

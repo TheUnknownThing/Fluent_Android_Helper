@@ -1,0 +1,18 @@
+<svg id="Tab-2" data-name="Tab" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="355" height="250" viewBox="0 0 355 250">
+  <defs>
+    <filter id="Tab" x="41" y="17" width="298" height="223" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="矩形_20" data-name="矩形 20" fill="#0783ff" stroke="#707070" stroke-width="1">
+    <rect width="355" height="250" rx="54" stroke="none"/>
+    <rect x="0.5" y="0.5" width="354" height="249" rx="53.5" fill="none"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Tab)">
+    <text id="Tab-3" data-name="Tab" transform="translate(47 181)" fill="#fff" font-size="164" font-family="GoogleSans-Bold, Google Sans" font-weight="700"><tspan x="0" y="0">Tab</tspan></text>
+  </g>
+</svg>

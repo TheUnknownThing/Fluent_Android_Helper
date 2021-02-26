@@ -1,0 +1,29 @@
+<svg id="MTP" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="684.319" height="200.127" viewBox="0 0 684.319 200.127">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1.067" x2="0.5" y2="0.824" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#eba600"/>
+      <stop offset="1" stop-color="#c28200"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="0.938" x2="0.5" y2="-0.066" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffd869"/>
+      <stop offset="1" stop-color="#fec52b"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="-1.015" cy="-1.006" r="2.476" gradientTransform="matrix(1, 0, 0, -1, 0, -1.531)" gradientUnits="objectBoundingBox">
+      <stop offset="0.693" stop-color="#006185"/>
+      <stop offset="0.921" stop-color="#35c1f1"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient-3" x1="0.153" y1="0.647" x2="0.854" y2="-0.054" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#80dafa"/>
+      <stop offset="1" stop-color="#0a85d9"/>
+    </linearGradient>
+  </defs>
+  <g id="组_20" data-name="组 20" transform="translate(0)">
+    <path id="路径_94" data-name="路径 94" d="M126.021,20.072,111.07,5.121A17.7,17.7,0,0,0,98.651,0H11.772A11.731,11.731,0,0,0,0,11.772V188.355a11.769,11.769,0,0,0,11.772,11.772H235.443a11.807,11.807,0,0,0,11.772-11.772V35.317a11.807,11.807,0,0,0-11.772-11.772H134.379a11.808,11.808,0,0,1-8.358-3.473Z" fill="url(#linear-gradient)"/>
+    <path id="路径_95" data-name="路径 95" d="M109.422,24.072,128.67,4.824A2.841,2.841,0,0,1,130.73,4H235.443a11.807,11.807,0,0,1,11.772,11.772V168.81a11.807,11.807,0,0,1-11.772,11.772H11.772A11.769,11.769,0,0,1,0,168.81V30.487a2.914,2.914,0,0,1,2.943-2.943h98.121a11.808,11.808,0,0,0,8.358-3.472Z" transform="translate(0 19.544)" fill="url(#linear-gradient-2)"/>
+    <path id="路径_96" data-name="路径 96" d="M34.228,24.82,23.81,35.238,49.356,60.784a1.422,1.422,0,0,0,2.06,0l8.3-8.3a1.422,1.422,0,0,0,0-2.06Z" transform="translate(116.338 121.273)" fill="#199be2"/>
+    <path id="路径_97" data-name="路径 97" d="M31.448,22.03,21.03,32.448,37.452,48.812l10.36-10.36Z" transform="translate(102.754 107.641)" fill="url(#radial-gradient)"/>
+    <circle id="椭圆_7" data-name="椭圆 7" cx="44.146" cy="44.146" r="44.146" transform="translate(64.747 70.633)" fill="url(#linear-gradient-3)"/>
+  </g>
+  <text id="文件管理" transform="translate(290.319 108.263)" fill="#707070" font-size="86" font-family="MicrosoftYaHei-Bold, Microsoft YaHei" font-weight="700"><tspan x="0" y="0">文件管理</tspan></text>
+  <text id="打开MTP_管理文件" data-name="打开MTP，管理文件" transform="translate(290.319 187.263)" fill="#707070" font-size="43" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">打开MTP，管理文件</tspan></text>
+</svg>

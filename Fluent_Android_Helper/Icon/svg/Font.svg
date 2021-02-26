@@ -1,0 +1,35 @@
+<svg id="Font" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="657" height="208" viewBox="0 0 657 208">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-48.625" y1="60.368" x2="-47.625" y2="60.368" gradientUnits="objectBoundingBox">
+      <stop offset="0.266" stop-color="#199ae0"/>
+      <stop offset="0.582" stop-color="#1898de"/>
+      <stop offset="0.745" stop-color="#1590d6"/>
+      <stop offset="0.873" stop-color="#1083c9"/>
+      <stop offset="0.982" stop-color="#0870b7"/>
+      <stop offset="1" stop-color="#076cb3"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-0.075" y1="-0.825" x2="0.976" y2="-1.818" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#32bdef"/>
+      <stop offset="1" stop-color="#1ea2e4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="-339.875" y1="449.867" x2="-338.875" y2="449.867" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="-579.575" y1="128.342" x2="-578.525" y2="127.349" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-5" x1="-342.875" y1="60.368" x2="-341.875" y2="60.368" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-6" x1="-585.575" y1="-0.825" x2="-584.525" y2="-1.818" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-7" x1="-45.625" y1="449.867" x2="-44.625" y2="449.867" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-8" x1="5.925" y1="128.342" x2="6.976" y2="127.349" xlink:href="#linear-gradient-2"/>
+  </defs>
+  <g id="组_18" data-name="组 18">
+    <path id="路径_75" data-name="路径 75" d="M102.891,103.5H79.71L72.984,82.491H39.351L32.68,103.5H9.61L44.021,9H69.259Zm-34.8-37.357L57.918,34.405A41.62,41.62,0,0,1,56.362,25.9h-.5a35.456,35.456,0,0,1-1.668,8.227L43.91,66.147Z" transform="translate(43.813 41.032)" fill="#0078d4"/>
+    <path id="路径_76" data-name="路径 76" d="M68.473,32H29.559A5.575,5.575,0,0,0,24,37.559V48.677a5.575,5.575,0,0,0,5.559,5.559H68.473Z" transform="translate(109.418 145.891)" fill="url(#linear-gradient)"/>
+    <path id="路径_77" data-name="路径 77" d="M32,29.559v61.15L50.956,71.753a11.152,11.152,0,0,0,3.28-7.894v-34.3A5.575,5.575,0,0,0,48.677,24H37.559A5.575,5.575,0,0,0,32,29.559Z" transform="translate(145.891 109.418)" fill="url(#linear-gradient-2)"/>
+    <path id="路径_78" data-name="路径 78" d="M4,22.236H42.914a5.575,5.575,0,0,0,5.559-5.559V5.559A5.575,5.575,0,0,0,42.914,0H4Z" transform="translate(18.236)" fill="url(#linear-gradient-3)"/>
+    <path id="路径_79" data-name="路径 79" d="M22.236,61.15V0L3.28,18.956A11.152,11.152,0,0,0,0,26.85v34.3a5.575,5.575,0,0,0,5.559,5.559H16.677A5.575,5.575,0,0,0,22.236,61.15Z" transform="translate(0)" fill="url(#linear-gradient-4)"/>
+    <path id="路径_80" data-name="路径 80" d="M4,32H42.914a5.575,5.575,0,0,1,5.559,5.559V48.677a5.575,5.575,0,0,1-5.559,5.559H4Z" transform="translate(18.236 145.891)" fill="url(#linear-gradient-5)"/>
+    <path id="路径_81" data-name="路径 81" d="M22.236,29.559v61.15L3.28,71.753A11.152,11.152,0,0,1,0,63.859v-34.3A5.575,5.575,0,0,1,5.559,24H16.677A5.575,5.575,0,0,1,22.236,29.559Z" transform="translate(0 109.418)" fill="url(#linear-gradient-6)"/>
+    <path id="路径_82" data-name="路径 82" d="M68.473,22.236H29.559A5.575,5.575,0,0,1,24,16.677V5.559A5.575,5.575,0,0,1,29.559,0H68.473Z" transform="translate(109.418)" fill="url(#linear-gradient-7)"/>
+    <path id="路径_83" data-name="路径 83" d="M32,61.15V0L50.956,18.956a11.152,11.152,0,0,1,3.28,7.894v34.3a5.575,5.575,0,0,1-5.559,5.559H37.559A5.575,5.575,0,0,1,32,61.15Z" transform="translate(145.891)" fill="url(#linear-gradient-8)"/>
+  </g>
+  <text id="字体修改" transform="translate(262 116)" fill="#707070" font-size="86" font-family="MicrosoftYaHei-Bold, Microsoft YaHei" font-weight="700"><tspan x="0" y="0">字体修改</tspan></text>
+  <text id="字体大小_字体样式" data-name="字体大小，字体样式" transform="translate(262 195)" fill="#707070" font-size="43" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">字体大小，字体样式</tspan></text>
+</svg>

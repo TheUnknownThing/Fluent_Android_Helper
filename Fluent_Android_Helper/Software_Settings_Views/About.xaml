@@ -1,0 +1,41 @@
+﻿<Page x:Class="Fluent_Android_Helper.Software_Settings_Views.About"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:PresentationOptions="http://schemas.microsoft.com/winfx/2006/xaml/presentation/options"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:svgc="http://sharpvectors.codeplex.com/svgc/"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="443" d:DesignWidth="410"
+      Title="About">
+
+    <Grid>
+        <Label Content="软件版本" HorizontalAlignment="Left" Height="28" Margin="22,52,0,0" VerticalAlignment="Top" Width="152" FontSize="18"/>
+        <Label Content="V1.0 Alpha 2" HorizontalAlignment="Left" Height="28" Margin="22,97,0,0" VerticalAlignment="Top" Width="152" FontSize="14"/>
+        <Button Content="检查ADB文件完整性" HorizontalAlignment="Left" Height="39" Margin="22,241,0,0" VerticalAlignment="Top" Width="166" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Left" Height="57" Margin="22,169,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="345" FontSize="14"><Run Text="因存在有杀毒软件误杀ADB服务的情况"/><Run Text="。"/><Run Text="若软件功能无效，请单击下方检查ADB文件完整性按钮检查ADB服务是否齐全。"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="57" Margin="22,323,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="345" FontSize="14" Text="获取软件更新与日志请到“软件更新”窗口内完成，可以点击下方按钮进入此窗口。"/>
+        <Button x:Name="openUpdate" Content="进入软件更新窗口" HorizontalAlignment="Left" Height="39" Margin="22,380,0,0" VerticalAlignment="Top" Width="166" Click="openUpdate_Click"/>
+        <Image HorizontalAlignment="Left" Height="67" Margin="244,76,0,0" VerticalAlignment="Top" Width="73" >
+            <Image.Source>
+                    <DrawingImage PresentationOptions:Freeze="True">
+                        <DrawingImage.Drawing>
+                            <DrawingGroup xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+                                <DrawingGroup x:Name="_SvgDrawingLayer">
+                                    <DrawingGroup.ClipGeometry>
+                                        <RectangleGeometry Rect="0,0,250,250" />
+                                    </DrawingGroup.ClipGeometry>
+                                    <GeometryDrawing x:Name="路径_168" Brush="#FF00ACC1">
+                                        <GeometryDrawing.Geometry>
+                                            <PathGeometry FillRule="Nonzero" Figures="M179.706,7.353L222.647,7.353 195.294,126.912C191.176,139.706 187.5,161.544 183.603,169.191 191.397,200 199.265,215.367 214.853,215.367 230.441,215.367 234.412,203.823 238.309,184.632L250,184.632Q250,213.532,238.309,230.808C230.441,242.279 222.647,250 210.956,250 203.162,250 195.294,246.176 191.397,238.456 187.5,230.736 183.603,215.368 175.735,192.28 156.25,230.735 128.9,250 89.853,250 62.5,250 39.044,234.632 23.453,215.368 7.794,192.279 0,165.368 0,123.088 0,84.632 7.794,53.9 27.353,30.809 46.912,7.718 66.4,0 89.853,0 109.412,0 121.103,7.721 132.794,19.265 144.485,30.809 152.353,50 164.044,80.809z M156.25,107.721C148.456,80.809 140.588,57.721 128.897,42.353 117.206,26.985 105.441,19.265 93.75,19.265 62.5,19.265 46.838,53.897 46.838,126.986Q46.838,230.886 93.75,230.81 134.779,230.81 152.35,138.531z" />
+                                        </GeometryDrawing.Geometry>
+                                    </GeometryDrawing>
+                                </DrawingGroup>
+                            </DrawingGroup>
+                        </DrawingImage.Drawing>
+                    </DrawingImage>
+                </Image.Source>
+            </Image>
+
+    </Grid>
+</Page>

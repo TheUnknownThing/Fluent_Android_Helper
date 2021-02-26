@@ -1,0 +1,18 @@
+﻿<DrawingGroup xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrawingGroup x:Name="_SvgDrawingLayer">
+    <DrawingGroup.ClipGeometry>
+      <RectangleGeometry Rect="0,0,430.332,250" />
+    </DrawingGroup.ClipGeometry>
+    <GeometryDrawing x:Name="路径_132">
+      <GeometryDrawing.Brush>
+        <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" SpreadMethod="Pad" Opacity="1">
+          <GradientStop Color="#FF199AE0" Offset="0" />
+          <GradientStop Color="#FF0D4D70" Offset="1" />
+        </LinearGradientBrush>
+      </GeometryDrawing.Brush>
+      <GeometryDrawing.Geometry>
+        <PathGeometry FillRule="Nonzero" Figures="M421.595,179.211L251.344,8.961A32.482,32.482,0,0,0,206.544,8.961L121.416,94.086 54.216,26.886A31.373,31.373,0,0,0,9.416,26.886C-3.129,39.431,-3.129,59.144,9.416,70.793L179.659,241.039A32.482,32.482,0,0,0,224.459,241.039L309.584,155.914 376.784,224.014A31.373,31.373,0,0,0,421.584,224.014A33.088,33.088,0,0,0,421.595,179.211z M202.061,174.731L165.323,138.889 228.047,76.165 264.785,112.007z" />
+      </GeometryDrawing.Geometry>
+    </GeometryDrawing>
+  </DrawingGroup>
+</DrawingGroup>

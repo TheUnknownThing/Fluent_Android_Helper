@@ -1,0 +1,37 @@
+﻿<DrawingGroup xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrawingGroup x:Name="_SvgDrawingLayer">
+    <DrawingGroup.ClipGeometry>
+      <RectangleGeometry Rect="0,0,250,250" />
+    </DrawingGroup.ClipGeometry>
+    <DrawingGroup x:Name="icons8_resize" Transform="1,0,0,1,-6,-6">
+      <GeometryDrawing x:Name="路径_216" Brush="#FFB0BEC5">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M256,47.667L235.167,47.667 235.167,26.833 214.333,26.833 214.333,6 256,6z M26.833,47.667L6,47.667 6,6 47.667,6 47.667,26.833 26.833,26.833z M256,214.333L235.167,214.333 235.167,235.166 214.333,235.166 214.333,256 256,256z M26.833,214.333L6,214.333 6,256 47.667,256 47.667,235.167 26.833,235.167z M6,75.444L26.833,75.444 26.833,117.111 6,117.111z M6,144.888L26.833,144.888 26.833,186.555 6,186.555z M235.167,75.444L256,75.444 256,117.111 235.167,117.111z M235.167,144.888L256,144.888 256,186.555 235.167,186.555z M144.889,6L186.556,6 186.556,26.833 144.889,26.833z M75.444,6L117.111,6 117.111,26.833 75.444,26.833z M144.888,235.167L186.555,235.167 186.555,256 144.889,256z M75.444,235.167L117.111,235.167 117.111,256 75.444,256z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <DrawingGroup x:Name="组_47" Transform="1,0,0,1,131,54.611">
+        <DrawingGroup x:Name="路径_217" Transform="1,0,0,1,-24,-13">
+          <GeometryDrawing Brush="#FF2196F3">
+            <GeometryDrawing.Geometry>
+              <PathGeometry FillRule="Nonzero" Figures="M100.389,13L24,13 100.389,89.389z" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+        </DrawingGroup>
+        <DrawingGroup x:Name="路径_218" Transform="1,0,0,1,-17.033,-9.463">
+          <GeometryDrawing Brush="#FF2196F3">
+            <GeometryDrawing.Geometry>
+              <PathGeometry FillRule="Nonzero" Figures="M76.408,13.6A13.818,13.818,0,0,0,66.6,17.664L25.172,58.074 44.811,77.713 86.228,37.3A13.889,13.889,0,0,0,76.408,13.6z" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <DrawingGroup x:Name="路径_219" Transform="1,0,0,1,0,107">
+        <GeometryDrawing Brush="#FF1565C0">
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M6,24L131,24 131,149 6,149z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+    </DrawingGroup>
+  </DrawingGroup>
+</DrawingGroup>

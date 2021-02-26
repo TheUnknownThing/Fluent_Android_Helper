@@ -1,0 +1,17 @@
+﻿<DrawingGroup xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrawingGroup x:Name="_SvgDrawingLayer">
+    <DrawingGroup.ClipGeometry>
+      <RectangleGeometry Rect="0,0,142.867,250" />
+    </DrawingGroup.ClipGeometry>
+    <DrawingGroup.Transform>
+      <TranslateTransform X="0.0021295975893735886" Y="0.00010438400931889191" />
+    </DrawingGroup.Transform>
+    <DrawingGroup x:Name="路径_14" Transform="1,0,0,1,0,-0.002">
+      <GeometryDrawing Brush="#FF37C6D0">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M77.922,0.287A71.533,71.533,0,0,0,0,70.29C-0.119,76.957,4.762,83.029,11.429,83.326A11.912,11.912,0,0,0,23.813,71.541C23.932,53.564 32.802,36.541 49.171,28.92 84.411,12.491 119.056,37.968 119.056,71.42L119.056,77.373A29.774,29.774,0,0,1,89.293,107.136L11.907,107.136A11.94,11.94,0,0,0,0,119.043L0,238.1A11.94,11.94,0,0,0,11.907,250L130.961,250A11.94,11.94,0,0,0,142.866,238.1L142.866,73.386C142.866,36.063,115.067,3.561,77.922,0.287z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+  </DrawingGroup>
+</DrawingGroup>

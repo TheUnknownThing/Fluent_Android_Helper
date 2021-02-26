@@ -1,0 +1,22 @@
+<svg id="组_44" data-name="组 44" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="250" height="250" viewBox="0 0 250 250">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.908" cy="0.981" r="1.094" gradientTransform="matrix(1, 0, 0, -1, 0, 0.138)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6d75d6"/>
+      <stop offset="0.123" stop-color="#8189de"/>
+      <stop offset="0.384" stop-color="#a7adec"/>
+      <stop offset="0.625" stop-color="#c3c7f6"/>
+      <stop offset="0.838" stop-color="#d3d6fd"/>
+      <stop offset="1" stop-color="#d9dcff"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0.678" cy="0.813" r="0.864" gradientTransform="matrix(1, 0, 0, -1, 0, -1.766)" gradientUnits="objectBoundingBox">
+      <stop offset="0.313" stop-color="#6063e0" stop-opacity="0"/>
+      <stop offset="1" stop-color="#6063e0"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-3" cx="0.678" cy="0.813" r="0.864" gradientTransform="matrix(1, 0, 0, -1, 0, 1.375)" xlink:href="#radial-gradient-2"/>
+    <radialGradient id="radial-gradient-4" cx="0.678" cy="0.813" r="0.864" gradientTransform="matrix(1, 0, 0, -1, 0, 5.041)" xlink:href="#radial-gradient-2"/>
+  </defs>
+  <path id="路径_169" data-name="路径 169" d="M125,0A125,125,0,1,0,250,125,124.966,124.966,0,0,0,125,0Z" fill="url(#radial-gradient)"/>
+  <path id="路径_170" data-name="路径 170" d="M32.75,6A18.75,18.75,0,1,0,51.5,24.75,18.725,18.725,0,0,0,32.75,6Z" transform="translate(73.5 31.5)" fill="url(#radial-gradient-2)"/>
+  <path id="路径_171" data-name="路径 171" d="M19.5,18A12.5,12.5,0,1,0,32,30.5,12.537,12.537,0,0,0,19.5,18Z" transform="translate(36.75 94.5)" fill="url(#radial-gradient-3)"/>
+  <path id="路径_172" data-name="路径 172" d="M40.375,16a9.375,9.375,0,1,0,9.375,9.375A9.362,9.362,0,0,0,40.375,16Z" transform="translate(162.75 84)" fill="url(#radial-gradient-4)"/>
+</svg>

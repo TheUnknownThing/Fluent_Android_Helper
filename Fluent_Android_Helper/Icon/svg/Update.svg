@@ -1,0 +1,24 @@
+<svg id="Update" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="681.371" height="200.127" viewBox="0 0 681.371 200.127">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1.025" y1="0.907" x2="0.091" y2="0.907" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#007ccf"/>
+      <stop offset="0.317" stop-color="#0074c7"/>
+      <stop offset="0.818" stop-color="#005eb0"/>
+      <stop offset="1" stop-color="#0055a6"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.371" y1="1.041" x2="0.863" y2="-0.348" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#32bdef"/>
+      <stop offset="1" stop-color="#1ea2e4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="-139.198" y1="57.981" x2="-140.131" y2="57.981" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="-120.158" y1="44.662" x2="-119.666" y2="43.273" xlink:href="#linear-gradient-2"/>
+  </defs>
+  <g id="组_14" data-name="组 14">
+    <path id="路径_39" data-name="路径 39" d="M93.945,33.354H99.5a5.575,5.575,0,0,0,5.559-5.559V5.559A5.575,5.575,0,0,0,99.5,0H93.945A88.921,88.921,0,0,0,5,88.945V150.1H38.354V88.945A55.611,55.611,0,0,1,93.945,33.354Z" transform="translate(22.79)" fill="url(#linear-gradient)"/>
+    <path id="路径_40" data-name="路径 40" d="M116.737,0A88.921,88.921,0,0,0,27.791,88.945V150.1H4.5a4.49,4.49,0,0,0-3.169,7.672l37.246,37.246a8.288,8.288,0,0,0,11.785,0l37.246-37.246a4.49,4.49,0,0,0-3.169-7.672H61.146V61.15C61.146,5.559,116.737,0,116.737,0Z" transform="translate(-0.001 0)" fill="url(#linear-gradient-2)"/>
+    <path id="路径_41" data-name="路径 41" d="M31.118,125.741H25.559A5.575,5.575,0,0,0,20,131.3v22.236a5.575,5.575,0,0,0,5.559,5.559h5.559A88.921,88.921,0,0,0,120.063,70.15V9H86.709V70.15A55.611,55.611,0,0,1,31.118,125.741Z" transform="translate(91.177 41.032)" fill="url(#linear-gradient-3)"/>
+    <path id="路径_42" data-name="路径 42" d="M22,197.95A88.921,88.921,0,0,0,110.945,109V47.855h23.293a4.49,4.49,0,0,0,3.169-7.672L100.161,2.937a8.288,8.288,0,0,0-11.785,0L51.13,40.183A4.49,4.49,0,0,0,54.3,47.855H77.591V136.8C77.591,192.391,22,197.95,22,197.95Z" transform="translate(100.295 2.177)" fill="url(#linear-gradient-4)"/>
+  </g>
+  <text id="更新功能" transform="translate(286 97.919)" fill="#707070" font-size="86" font-family="MicrosoftYaHei-Bold, Microsoft YaHei" font-weight="700"><tspan x="0" y="0">更新功能</tspan></text>
+  <text id="更新获取_日志查看" data-name="更新获取，日志查看" transform="translate(286 176.919)" fill="#707070" font-size="43" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">更新获取，日志查看</tspan></text>
+</svg>

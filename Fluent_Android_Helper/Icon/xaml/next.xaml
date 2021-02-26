@@ -1,0 +1,55 @@
+﻿<DrawingGroup xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrawingGroup x:Name="_SvgDrawingLayer">
+    <DrawingGroup.ClipGeometry>
+      <RectangleGeometry Rect="0,0,160.704,250" />
+    </DrawingGroup.ClipGeometry>
+    <DrawingGroup x:Name="路径_162" Transform="1,0,0,1,-0.002,74.294">
+      <GeometryDrawing>
+        <GeometryDrawing.Brush>
+          <DrawingBrush Viewbox="0,0,1,1" Stretch="Fill" Opacity="1">
+            <DrawingBrush.Drawing>
+              <GeometryDrawing>
+                <GeometryDrawing.Brush>
+                  <LinearGradientBrush StartPoint="0.057,-0.424" EndPoint="0.69,0.208" MappingMode="RelativeToBoundingBox" SpreadMethod="Pad">
+                    <GradientStop Color="#FFE0198A" Offset="0" />
+                    <GradientStop Color="#FF972F2F" Offset="1" />
+                  </LinearGradientBrush>
+                </GeometryDrawing.Brush>
+                <GeometryDrawing.Geometry>
+                  <RectangleGeometry Rect="0,0,1,1" />
+                </GeometryDrawing.Geometry>
+              </GeometryDrawing>
+            </DrawingBrush.Drawing>
+          </DrawingBrush>
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M157.268,59.04L44.04,172.268A11.821,11.821,0,0,1,27.371,172.268L3.44,148.337A11.821,11.821,0,0,1,3.44,131.668L116.668,18.44A11.821,11.821,0,0,1,133.337,18.44L157.268,42.371A11.821,11.821,0,0,1,157.268,59.04z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="路径_163" Transform="1,0,0,1,-0.002,-0.002">
+      <GeometryDrawing>
+        <GeometryDrawing.Brush>
+          <DrawingBrush Viewbox="0,0,1,1" Stretch="Fill" Opacity="1">
+            <DrawingBrush.Drawing>
+              <GeometryDrawing>
+                <GeometryDrawing.Brush>
+                  <LinearGradientBrush StartPoint="0.899,0.73" EndPoint="0.085,1.545" MappingMode="RelativeToBoundingBox" SpreadMethod="Pad">
+                    <GradientStop Color="#FFF2CFCF" Offset="0" />
+                    <GradientStop Color="#FFFD2323" Offset="1" />
+                  </LinearGradientBrush>
+                </GeometryDrawing.Brush>
+                <GeometryDrawing.Geometry>
+                  <RectangleGeometry Rect="0,0,1,1" />
+                </GeometryDrawing.Geometry>
+              </GeometryDrawing>
+            </DrawingBrush.Drawing>
+          </DrawingBrush>
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M116.668,157.268L3.44,44.04A11.821,11.821,0,0,1,3.44,27.371L27.372,3.44A11.821,11.821,0,0,1,44.041,3.44L157.268,116.668A11.821,11.821,0,0,1,157.268,133.337L133.337,157.268A11.821,11.821,0,0,1,116.668,157.268z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+  </DrawingGroup>
+</DrawingGroup>

@@ -1,0 +1,73 @@
+﻿<DrawingGroup xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrawingGroup x:Name="_SvgDrawingLayer">
+    <DrawingGroup.ClipGeometry>
+      <RectangleGeometry Rect="0,0,387.097,250" />
+    </DrawingGroup.ClipGeometry>
+    <DrawingGroup.Transform>
+      <TranslateTransform X="0.006142851896584034" Y="0.0052455286495387554" />
+    </DrawingGroup.Transform>
+    <GeometryDrawing x:Name="路径_102">
+      <GeometryDrawing.Brush>
+        <DrawingBrush Viewbox="0,0,1,1" Stretch="Fill" Opacity="1">
+          <DrawingBrush.Drawing>
+            <GeometryDrawing>
+              <GeometryDrawing.Brush>
+                <LinearGradientBrush StartPoint="0.297,1.117" EndPoint="0.629,0.139" MappingMode="RelativeToBoundingBox" SpreadMethod="Pad">
+                  <GradientStop Color="#FF2AA4F4" Offset="0" />
+                  <GradientStop Color="#FF007AD9" Offset="1" />
+                </LinearGradientBrush>
+              </GeometryDrawing.Brush>
+              <GeometryDrawing.Geometry>
+                <RectangleGeometry Rect="0,0,1,1" />
+              </GeometryDrawing.Geometry>
+            </GeometryDrawing>
+          </DrawingBrush.Drawing>
+        </DrawingBrush>
+      </GeometryDrawing.Brush>
+      <GeometryDrawing.Geometry>
+        <PathGeometry FillRule="Nonzero" Figures="M387.1,153.226A96.748,96.748,0,0,1,290.323,250L76.613,250A76.63,76.63,0,0,1,60.081,98.548A129.077,129.077,0,0,1,292.258,56.532A96.647,96.647,0,0,1,387.1,153.226z" />
+      </GeometryDrawing.Geometry>
+    </GeometryDrawing>
+    <DrawingGroup x:Name="路径_103" Opacity="0.05000000074505806" Transform="1,0,0,1,77.71,91.839">
+      <GeometryDrawing>
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF000000" Opacity="0.05" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M172.29,13L156.161,13A47.786,47.786,0,0,0,117.693,32.355A8.024,8.024,0,0,0,124.064,45.255L107.532,45.255A8.162,8.162,0,0,0,114.79,40.739A8.047,8.047,0,0,0,113.984,32.271A47.934,47.934,0,0,0,75.516,13L59.387,13A48.387,48.387,0,0,0,59.387,109.774L75.516,109.774A47.786,47.786,0,0,0,113.984,90.419A8.024,8.024,0,0,0,107.613,77.519L124.145,77.519A8.162,8.162,0,0,0,116.887,82.035A7.908,7.908,0,0,0,117.693,90.422A47.785,47.785,0,0,0,156.161,109.777L172.29,109.777A48.387,48.387,0,0,0,172.29,13.003z M59.387,77.516A16.129,16.129,0,0,1,59.387,45.258L83.581,45.258A16.129,16.129,0,0,0,83.581,77.516z M164.226,61.387A16.176,16.176,0,0,0,148.1,45.258L172.29,45.258A16.129,16.129,0,0,1,172.29,77.516L148.1,77.516A16.176,16.176,0,0,0,164.226,61.387z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="路径_104" Opacity="0.070000000298023224" Transform="1,0,0,1,81.242,95.371">
+      <GeometryDrawing>
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF000000" Opacity="0.07" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M55.855,78.016L112.145,78.016 107.226,84.468A43.926,43.926,0,0,1,71.984,102.21L55.855,102.21A44.355,44.355,0,0,1,55.855,13.5L71.984,13.5A43.813,43.813,0,0,1,107.226,31.242L112.145,37.694 55.855,37.694A20.161,20.161,0,0,0,55.855,78.017z M168.758,13.5L152.629,13.5A43.813,43.813,0,0,0,117.387,31.242L112.468,37.694 168.758,37.694A20.161,20.161,0,0,1,168.758,78.017L112.468,78.017 117.387,84.469A43.926,43.926,0,0,0,152.629,102.211L168.758,102.211A44.355,44.355,0,0,0,168.758,13.501z M67.952,57.855A12.081,12.081,0,0,0,80.052,69.955L144.568,69.955A12.1,12.1,0,0,0,144.568,45.761L80.048,45.761A12.081,12.081,0,0,0,67.952,57.855z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="路径_105" Transform="1,0,0,1,84.774,98.903">
+      <GeometryDrawing Brush="#FFFFFFFF">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M52.323,78.516A24.194,24.194,0,0,1,52.323,30.129L100.468,30.129A40.051,40.051,0,0,0,68.452,14L52.323,14A40.323,40.323,0,1,0,52.323,94.645L68.452,94.645A39.935,39.935,0,0,0,100.468,78.516z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="路径_106" Transform="1,0,0,1,176.825,98.903">
+      <GeometryDrawing Brush="#FFFFFFFF">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M73.175,14L57.046,14A39.935,39.935,0,0,0,25.03,30.129L73.175,30.129A24.194,24.194,0,0,1,73.175,78.516L25.03,78.516A40.051,40.051,0,0,0,57.046,94.645L73.175,94.645A40.323,40.323,0,0,0,73.175,14z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="路径_107" Transform="1,0,0,1,134.226,127.161">
+      <GeometryDrawing Brush="#FFFFFFFF">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M91.581,34.129L27.065,34.129A8.065,8.065,0,0,1,27.065,18L91.581,18A8.065,8.065,0,0,1,91.581,34.129z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+  </DrawingGroup>
+</DrawingGroup>

@@ -1,0 +1,35 @@
+﻿<DrawingGroup xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrawingGroup x:Name="_SvgDrawingLayer">
+    <DrawingGroup.ClipGeometry>
+      <RectangleGeometry Rect="0,0,239.069,239.069" />
+    </DrawingGroup.ClipGeometry>
+    <DrawingGroup x:Name="路径_211" Transform="1,0,0,1,-4,-4">
+      <GeometryDrawing Brush="#FFEEEEEE">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M123.535,4A119.535,119.535,0,1,0,243.069,123.535A119.535,119.535,0,0,0,123.535,4z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="路径_212" Transform="1,0,0,1,77.653,36.61">
+      <GeometryDrawing Brush="#FFD84315">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M59.148,104.4L20.407,65.658 91.124,12.158 112.646,33.68z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="路径_213" Transform="1,0,0,1,40.791,91.548">
+      <GeometryDrawing Brush="#FF90A4AE">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M69.749,23.2L61.328,31.62C47.522,45.426,19.5,74.24,19.5,74.24L13,93.73 32.49,87.23C32.49,87.23,61.3,59.209,75.11,45.4L83.531,36.979z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="路径_214" Transform="1,0,0,1,55.721,25.86">
+      <GeometryDrawing Brush="#FFFF5722">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M16,76.408L22.084,70.324A21.517,21.517,0,0,1,52.524,70.324L87.834,104.97A21.521,21.521,0,0,1,87.834,135.404L81.744,141.488z M100.529,10L92.705,17.824A11.071,11.071,0,0,0,92.705,33.477L124.005,64.777A11.071,11.071,0,0,0,139.658,64.777L147.488,56.953z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+  </DrawingGroup>
+</DrawingGroup>

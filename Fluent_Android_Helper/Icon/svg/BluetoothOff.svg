@@ -1,0 +1,19 @@
+<svg id="BluetoothOff" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="430.332" height="250.497" viewBox="0 0 430.332 250.497">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#9bacb5"/>
+      <stop offset="1" stop-color="#243e4b"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.145" y1="0.905" x2="0.859" y2="0.191" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f44f5a"/>
+      <stop offset="0.443" stop-color="#ee3d4a"/>
+      <stop offset="1" stop-color="#e52030"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="-0.078" y1="1.162" x2="1.074" y2="0.01" xlink:href="#linear-gradient-2"/>
+  </defs>
+  <path id="路径_140" data-name="路径 140" d="M421.595,179.211,251.344,8.961a32.482,32.482,0,0,0-44.8,0L121.416,94.086l-67.2-67.2a31.373,31.373,0,0,0-44.8,0c-12.545,12.545-12.545,32.258,0,43.907L179.659,241.039a32.482,32.482,0,0,0,44.8,0l85.125-85.125,67.2,68.1a31.373,31.373,0,0,0,44.8,0A33.088,33.088,0,0,0,421.595,179.211Zm-219.534-4.48-36.738-35.842,62.724-62.724,36.738,35.842Z" fill="url(#linear-gradient)"/>
+  <g id="组_32" data-name="组 32" transform="translate(279 190.972)">
+    <path id="路径_138" data-name="路径 138" d="M29.762,0A29.762,29.762,0,1,0,59.525,29.762,29.754,29.754,0,0,0,29.762,0Zm0,50.6A20.834,20.834,0,1,1,50.6,29.762,20.837,20.837,0,0,1,29.762,50.6Z" fill="url(#linear-gradient-2)"/>
+    <path id="路径_139" data-name="路径 139" d="M11.44,49.387l-6.31-6.31L43.077,5.13l6.31,6.31Z" transform="translate(2.504 2.504)" fill="url(#linear-gradient-3)"/>
+  </g>
+</svg>
