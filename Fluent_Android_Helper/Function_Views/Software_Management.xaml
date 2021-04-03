@@ -1,0 +1,28 @@
+﻿<Window x:Class="Fluent_Android_Helper.Function_Views.Software_Management"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:ui="http://schemas.modernwpf.com/2019"
+        xmlns:fw="clr-namespace:SourceChord.FluentWPF;assembly=FluentWPF"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Software_Management" Height="600" Width="700" fw:AcrylicWindow.Enabled="True">
+    <Grid>
+        <ui:NavigationView x:Name="NavView"
+                         Loaded="NavView_Loaded"
+                         ItemInvoked="NavView_ItemInvoked"
+                         IsBackButtonVisible="Collapsed"
+                         PaneDisplayMode="Top"
+                         IsSettingsVisible="False">
+            <ui:NavigationView.MenuItems>
+                <ui:NavigationViewItem Tag="home" Content="功能介绍"/>
+                <ui:NavigationViewItemSeparator/>
+                <ui:NavigationViewItem Tag="manage" Content="管理应用" />
+            </ui:NavigationView.MenuItems>
+
+            <ScrollViewer>
+                <Frame x:Name="ContentFrame" Padding="12,0,12,24" IsTabStop="True" NavigationUIVisibility="Hidden"/>
+            </ScrollViewer>
+        </ui:NavigationView>
+    </Grid>
+</Window>

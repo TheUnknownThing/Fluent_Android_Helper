@@ -133,71 +133,92 @@
     </ApplicationDefinition>
     <Compile Include="CheckADBFile.cs" />
     <Compile Include="Devices.cs" />
-    <Compile Include="Input_Simulate_Views\Function.xaml.cs">
+    <Compile Include="Function_Views\Flash.xaml.cs">
+      <DependentUpon>Flash.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Function_Views\Flash_Views\FastbootTools.xaml.cs">
+      <DependentUpon>FastbootTools.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Function_Views\Flash_Views\FlashPartition.xaml.cs">
+      <DependentUpon>FlashPartition.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Function_Views\Input_Simulate_Views\Function.xaml.cs">
       <DependentUpon>Function.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MiToolbox.xaml.cs">
+    <Compile Include="Function_Views\MiToolbox.xaml.cs">
       <DependentUpon>MiToolbox.xaml</DependentUpon>
     </Compile>
-    <Compile Include="NativeAndroidToolbox.xaml.cs">
+    <Compile Include="Function_Views\NativeAndroidToolbox.xaml.cs">
       <DependentUpon>NativeAndroidToolbox.xaml</DependentUpon>
     </Compile>
     <Compile Include="Software_preferences.cs" />
-    <Compile Include="Second_Level_Item\About.xaml.cs">
+    <Compile Include="Function_Views\About.xaml.cs">
       <DependentUpon>About.xaml</DependentUpon>
     </Compile>
     <Compile Include="ADBExecutor.cs" />
     <Compile Include="CheckADB.xaml.cs">
       <DependentUpon>CheckADB.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Second_Level_Item\Command_Line.xaml.cs">
+    <Compile Include="Function_Views\Command_Line.xaml.cs">
       <DependentUpon>Command_Line.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Second_Level_Item\Fonts.xaml.cs">
+    <Compile Include="Function_Views\Fonts.xaml.cs">
       <DependentUpon>Fonts.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Input_Simulate_Views\Keyboard_Simulate.xaml.cs">
+    <Compile Include="Function_Views\Input_Simulate_Views\Keyboard_Simulate.xaml.cs">
       <DependentUpon>Keyboard_Simulate.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Input_Simulate_Views\Touch_Simulate.xaml.cs">
+    <Compile Include="Function_Views\Input_Simulate_Views\Touch_Simulate.xaml.cs">
       <DependentUpon>Touch_Simulate.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Second_Level_Item\Input_Simulate.xaml.cs">
+    <Compile Include="Function_Views\Input_Simulate.xaml.cs">
       <DependentUpon>Input_Simulate.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Second_Level_Item\Software_Management.xaml.cs">
+    <Compile Include="Function_Views\Software_Management.xaml.cs">
       <DependentUpon>Software_Management.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Software_Management_Views\FreezeGoogle.xaml.cs">
+    <Compile Include="Function_Views\Software_Management_Views\FreezeGoogle.xaml.cs">
       <DependentUpon>FreezeGoogle.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Software_Management_Views\Function.xaml.cs">
+    <Compile Include="Function_Views\Software_Management_Views\Function.xaml.cs">
       <DependentUpon>Function.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Software_Management_Views\ManageApps.xaml.cs">
+    <Compile Include="Function_Views\Software_Management_Views\ManageApps.xaml.cs">
       <DependentUpon>ManageApps.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Second_Level_Item\Software_Settings.xaml.cs">
+    <Compile Include="Function_Views\Software_Settings.xaml.cs">
       <DependentUpon>Software_Settings.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Software_Settings_Views\About.xaml.cs">
+    <Compile Include="Function_Views\Software_Settings_Views\About.xaml.cs">
       <DependentUpon>About.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Software_Settings_Views\Github.xaml.cs">
+    <Compile Include="Function_Views\Software_Settings_Views\Github.xaml.cs">
       <DependentUpon>Github.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Software_Settings_Views\Theme.xaml.cs">
+    <Compile Include="Function_Views\Software_Settings_Views\Theme.xaml.cs">
       <DependentUpon>Theme.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Second_Level_Item\Update.xaml.cs">
+    <Compile Include="Function_Views\Update.xaml.cs">
       <DependentUpon>Update.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Second_Level_Item\UI_Modify.xaml.cs">
+    <Compile Include="Function_Views\UI_Modify.xaml.cs">
       <DependentUpon>UI_Modify.xaml</DependentUpon>
     </Compile>
     <Compile Include="StartupMenu.xaml.cs">
       <DependentUpon>StartupMenu.xaml</DependentUpon>
     </Compile>
+    <Page Include="Function_Views\Flash.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Function_Views\Flash_Views\FastbootTools.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Function_Views\Flash_Views\FlashPartition.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Icon\xaml\About.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -466,19 +487,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Input_Simulate_Views\Function.xaml">
+    <Page Include="Function_Views\Input_Simulate_Views\Function.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MiToolbox.xaml">
+    <Page Include="Function_Views\MiToolbox.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="NativeAndroidToolbox.xaml">
+    <Page Include="Function_Views\NativeAndroidToolbox.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Second_Level_Item\About.xaml">
+    <Page Include="Function_Views\About.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -486,19 +507,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Second_Level_Item\Command_Line.xaml">
+    <Page Include="Function_Views\Command_Line.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Second_Level_Item\Fonts.xaml">
+    <Page Include="Function_Views\Fonts.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Input_Simulate_Views\Keyboard_Simulate.xaml">
+    <Page Include="Function_Views\Input_Simulate_Views\Keyboard_Simulate.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Input_Simulate_Views\Touch_Simulate.xaml">
+    <Page Include="Function_Views\Input_Simulate_Views\Touch_Simulate.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -521,47 +542,47 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Second_Level_Item\Input_Simulate.xaml">
+    <Page Include="Function_Views\Input_Simulate.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Second_Level_Item\Software_Management.xaml">
+    <Page Include="Function_Views\Software_Management.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Software_Management_Views\FreezeGoogle.xaml">
+    <Page Include="Function_Views\Software_Management_Views\FreezeGoogle.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Software_Management_Views\Function.xaml">
+    <Page Include="Function_Views\Software_Management_Views\Function.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Software_Management_Views\ManageApps.xaml">
+    <Page Include="Function_Views\Software_Management_Views\ManageApps.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Second_Level_Item\Software_Settings.xaml">
+    <Page Include="Function_Views\Software_Settings.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Software_Settings_Views\About.xaml">
+    <Page Include="Function_Views\Software_Settings_Views\About.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Software_Settings_Views\Github.xaml">
+    <Page Include="Function_Views\Software_Settings_Views\Github.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Software_Settings_Views\Theme.xaml">
+    <Page Include="Function_Views\Software_Settings_Views\Theme.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Second_Level_Item\Update.xaml">
+    <Page Include="Function_Views\Update.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Second_Level_Item\UI_Modify.xaml">
+    <Page Include="Function_Views\UI_Modify.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -642,12 +663,15 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <None Include="startADB.cmd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ADB_Command_Executor\Command_Executor\Command_Executor.csproj">
+    <ProjectReference Include="..\Command_Executor\Command_Executor.csproj">
       <Project>{82afed00-8474-457e-b0ae-a19a5aa35b3d}</Project>
       <Name>Command_Executor</Name>
     </ProjectReference>

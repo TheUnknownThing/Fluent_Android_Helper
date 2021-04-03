@@ -1,0 +1,50 @@
+﻿<Window x:Class="Fluent_Android_Helper.Function_Views.UI_Modify"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:fw="clr-namespace:SourceChord.FluentWPF;assembly=FluentWPF"
+        xmlns:ui="http://schemas.modernwpf.com/2019"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Fluent_Android_Helper"
+        mc:Ignorable="d"
+        Title="UI_Modify" Height="470" Width="450" fw:AcrylicWindow.Enabled="True">
+    <Grid>
+        <Label Content="DPI大小调整" HorizontalAlignment="Left" Height="29" Margin="10,22,0,0" VerticalAlignment="Top" Width="111" FontSize="16"/>
+        <Button x:Name="ChangeDPI" Content="更改" HorizontalAlignment="Left" Height="34" Margin="189,54,0,0" VerticalAlignment="Top" Width="80" Click="ChangeDPI_Click"/>
+        <Label Content="改动到的值：" HorizontalAlignment="Left" Height="28" Margin="15,63,0,0" VerticalAlignment="Top" Width="84"/>
+        <Label Content="动画缩放调整" HorizontalAlignment="Left" Height="28" Margin="10,138,0,0" VerticalAlignment="Top" Width="111" FontSize="16"/>
+        <Button x:Name="ChangeWindow" Content="更改" HorizontalAlignment="Left" Height="34" Margin="236,171,0,0" VerticalAlignment="Top" Width="80" Click="ChangeWindow_Click"/>
+        <Label Content="窗口动画缩放：" HorizontalAlignment="Left" Height="28" Margin="15,183,0,0" VerticalAlignment="Top" Width="85"/>
+        <Button x:Name="ChangeGD" Content="更改" HorizontalAlignment="Left" Height="34" Margin="236,217,0,0" VerticalAlignment="Top" Width="80" Click="ChangeGD_Click"/>
+        <Label Content="过度动画缩放：" HorizontalAlignment="Left" Height="28" Margin="15,229,0,0" VerticalAlignment="Top" Width="85"/>
+        <Button x:Name="ChangeAnimator" Content="更改" HorizontalAlignment="Left" Height="34" Margin="236,264,0,0" VerticalAlignment="Top" Width="80" Click="ChangeAnimator_Click"/>
+        <Label Content="Animator动画" HorizontalAlignment="Left" Height="28" Margin="15,276,0,0" VerticalAlignment="Top" Width="93"/>
+        <ComboBox x:Name="ComboWindow" HorizontalAlignment="Left" Height="41" Margin="120,171,0,0" VerticalAlignment="Top" SelectionChanged="ComboWindow_SelectionChanged">
+            <ComboBoxItem Content="0.25x" HorizontalAlignment="Left" Width="230.666666666667"/>
+            <ComboBoxItem Content="0.75x" HorizontalAlignment="Left" Width="230.666666666667"/>
+            <ComboBoxItem Content="1x" HorizontalAlignment="Left" Width="230.666666666667" IsSelected="True"/>
+            <ComboBoxItem Content="1.5x" HorizontalAlignment="Left" Width="230.666666666667"/>
+            <ComboBoxItem Content="2x" HorizontalAlignment="Left" Width="230.666666666667"/>
+            <ComboBoxItem Content="0" HorizontalAlignment="Left" Width="230.666666666667"/>
+        </ComboBox>
+        <ComboBox x:Name="ComboGD" HorizontalAlignment="Left" Height="41" Margin="120,217,0,0" VerticalAlignment="Top" SelectionChanged="ComboGD_SelectionChanged">
+            <ComboBoxItem Content="0.25x" HorizontalAlignment="Left" Width="230.666666666667"/>
+            <ComboBoxItem Content="0.75x" HorizontalAlignment="Left" Width="230.666666666667"/>
+            <ComboBoxItem Content="1x" HorizontalAlignment="Left" Width="230.666666666667" IsSelected="True"/>
+            <ComboBoxItem Content="1.5x" HorizontalAlignment="Left" Width="230.666666666667"/>
+            <ComboBoxItem Content="2x" HorizontalAlignment="Left" Width="230.666666666667"/>
+            <ComboBoxItem Content="0" HorizontalAlignment="Left" Width="230.666666666667"/>
+        </ComboBox>
+        <ComboBox x:Name="ComboAni" HorizontalAlignment="Left" Height="41" Margin="120,264,0,0" VerticalAlignment="Top" SelectionChanged="ComboBox_SelectionChanged">
+            <ComboBoxItem Content="0.25x" HorizontalAlignment="Left" Width="230.666666666667"/>
+            <ComboBoxItem Content="0.75x" HorizontalAlignment="Left" Width="230.666666666667"/>
+            <ComboBoxItem Content="1x" HorizontalAlignment="Left" Width="230.666666666667" IsSelected="True"/>
+            <ComboBoxItem Content="1.5x" HorizontalAlignment="Left" Width="230.666666666667"/>
+            <ComboBoxItem Content="2x" HorizontalAlignment="Left" Width="230.666666666667"/>
+            <ComboBoxItem Content="0" HorizontalAlignment="Left" Width="230.666666666667"/>
+        </ComboBox>
+        <TextBox x:Name="DPI" HorizontalAlignment="Left" Height="34" Margin="99,56,0,0" TextWrapping="Wrap" Text="120" VerticalAlignment="Top" Width="85"/>
+        <Label Content="Tips：DPI最小可调72（好像），再低貌似调不了" HorizontalAlignment="Left" Height="28" Margin="15,96,0,0" VerticalAlignment="Top" Width="310"/>
+
+    </Grid>
+</Window>

@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Fluent_Android_Helper.Function_Views;
 
 namespace Fluent_Android_Helper
 {
@@ -35,7 +36,7 @@ namespace Fluent_Android_Helper
 
         private void Font_Click(object sender, RoutedEventArgs e)
         {
-            Fonts k = new Fonts();
+            Fluent_Android_Helper.Function_Views.Fonts k = new Fluent_Android_Helper.Function_Views.Fonts();
             k.Show();
         }
 
